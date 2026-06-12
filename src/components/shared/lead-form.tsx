@@ -1,11 +1,12 @@
 "use client";
 
-import { useState } from "react";
-import { CheckCircle2 } from "lucide-react";
+import { useActionState } from "react";
+import { CheckCircle2, AlertCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
+import { sendLead, type LeadState } from "@/app/actions/send-lead";
 
 interface LeadFormProps {
   /** "contact" shows a message field; "demo" focuses on booking a demo. */
@@ -13,37 +14,31 @@ interface LeadFormProps {
   submitLabel?: string;
 }
 
-/**
- * UI-only lead form. No backend is connected yet — submission is simulated
- * client-side. Wire `onSubmit` to a Server Action or API route later.
- */
+const initialState: LeadState = { status: "idle" };
+
 export function LeadForm({
   variant = "contact",
   submitLabel = "Envoyer",
 }: LeadFormProps) {
-  const [submitted, setSubmitted] = useState(false);
+  const [state, formAction, isPending] = useActionState(sendLead, initialState);
 
-  function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
-    event.preventDefault();
-    // TODO: connect to a Server Action / API route.
-    setSubmitted(true);
-  }
-
-  if (submitted) {
+  if (state.status === "success") {
     return (
       <div className="flex flex-col items-center gap-3 rounded-xl border bg-muted/30 p-8 text-center">
         <CheckCircle2 className="h-10 w-10 text-primary" />
         <h3 className="text-lg font-semibold">Merci !</h3>
         <p className="text-sm text-muted-foreground">
-          Votre demande a bien été prise en compte. Notre équipe vous
-          recontacte rapidement.
+          Votre demande a bien été envoyée. Notre équipe vous recontacte
+          rapidement.
         </p>
       </div>
     );
   }
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-4">
+    <form action={formAction} className="space-y-4">
+      <input type="hidden" name="variant" value={variant} />
+
       <div className="grid gap-4 sm:grid-cols-2">
         <div className="space-y-2">
           <Label htmlFor="name">Nom complet</Label>
@@ -94,8 +89,20 @@ export function LeadForm({
         />
       </div>
 
-      <Button type="submit" size="lg" className="w-full sm:w-auto">
-        {submitLabel}
+      {state.status === "error" && state.message && (
+        <p className="flex items-center gap-2 text-sm text-destructive">
+          <AlertCircle className="h-4 w-4 shrink-0" />
+          {state.message}
+        </p>
+      )}
+
+      <Button
+        type="submit"
+        size="lg"
+        className="w-full sm:w-auto"
+        disabled={isPending}
+      >
+        {isPending ? "Envoi…" : submitLabel}
       </Button>
     </form>
   );

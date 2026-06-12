@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Mail, MapPin, Globe, Send } from "lucide-react";
+import { Mail, Globe, Send } from "lucide-react";
 import { FOOTER_NAV } from "@/data/navigation";
 import { siteConfig } from "@/config/site";
 import { Logo } from "@/components/shared/logo";
@@ -64,10 +64,6 @@ export function Footer() {
                 >
                   {siteConfig.email}
                 </a>
-              </li>
-              <li className="flex items-center gap-3">
-                <MapPin size={18} className="shrink-0 text-primary" />
-                <span className="text-neutral-400">Québec, Canada</span>
               </li>
               <li>
                 <Link

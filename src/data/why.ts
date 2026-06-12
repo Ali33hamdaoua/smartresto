@@ -1,4 +1,4 @@
-import { Plug, Wallet, LifeBuoy, MapPin } from "lucide-react";
+import { Plug, Wallet, LifeBuoy, Utensils } from "lucide-react";
 import type { ValueProp } from "@/types";
 
 export const WHY_SMARTRESTO: ValueProp[] = [
@@ -15,10 +15,10 @@ export const WHY_SMARTRESTO: ValueProp[] = [
       "Vous gardez vos marges : pas de pourcentage prélevé sur chaque commande.",
   },
   {
-    icon: MapPin,
-    title: "Pensé pour le Québec",
+    icon: Utensils,
+    title: "Pensé pour la restauration",
     description:
-      "Conçu et hébergé localement, adapté aux réalités de la restauration d’ici.",
+      "Conçu autour des vrais flux d’un restaurant, pas d’une logique générique.",
   },
   {
     icon: LifeBuoy,

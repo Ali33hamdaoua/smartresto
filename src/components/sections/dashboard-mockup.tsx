@@ -29,9 +29,9 @@ const KPIS = [
 
 const ACTIVITY = [
   { label: "Nouvelle commande", detail: "#4821 · Maison Burger", amount: "+42,50 $", tag: "Commande", color: "text-emerald-400" },
-  { label: "Achat fournisseur", detail: "Boucherie Lévis", amount: "-310,00 $", tag: "Achat", color: "text-amber-400" },
+  { label: "Achat fournisseur", detail: "Boucherie centrale", amount: "-310,00 $", tag: "Achat", color: "text-amber-400" },
   { label: "Ajustement inventaire", detail: "Pain burger · -24 u.", amount: "—", tag: "Stock", color: "text-sky-400" },
-  { label: "Mise à jour comptable", detail: "Rapprochement TPS", amount: "✓", tag: "Compta", color: "text-violet-400" },
+  { label: "Mise à jour comptable", detail: "Rapprochement des taxes", amount: "✓", tag: "Compta", color: "text-violet-400" },
 ];
 
 const BARS = [52, 68, 44, 80, 61, 90, 73];

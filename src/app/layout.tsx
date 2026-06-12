@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     "gestion de stock",
     "fournisseurs",
     "multi-succursales",
-    "Québec",
+    "comptabilité restaurant",
   ],
   authors: [{ name: siteConfig.name }],
   icons: {
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    locale: "fr_CA",
+    locale: "fr_FR",
     url: siteConfig.url,
     siteName: siteConfig.name,
     title: `${siteConfig.name} — Solutions technologiques pour restaurants`,

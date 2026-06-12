@@ -43,6 +43,6 @@ export const FEATURES: Feature[] = [
     icon: ShieldCheck,
     title: "Fiable & sécurisé",
     description:
-      "Une infrastructure pensée pour la restauration, hébergée au Canada.",
+      "Une infrastructure fiable et sécurisée, pensée pour la restauration.",
   },
 ];

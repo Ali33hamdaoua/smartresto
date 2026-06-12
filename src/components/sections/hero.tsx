@@ -19,7 +19,7 @@ const HERO_CARDS = [
   {
     icon: <ShoppingCart className="size-4 text-primary-foreground" />,
     title: "Sans commission",
-    description: "Vendez en ligne, gardez vos marges",
+    description: "Vendez sans commission",
     date: "Commande en ligne",
     className:
       "[grid-area:stack] hover:-translate-y-10 before:absolute before:w-[100%] before:outline-1 before:rounded-xl before:outline-border before:h-[100%] before:content-[''] before:bg-blend-overlay before:bg-background/50 grayscale-[100%] hover:before:opacity-0 before:transition-opacity before:duration-700 hover:grayscale-0 before:left-0 before:top-0",
@@ -27,18 +27,18 @@ const HERO_CARDS = [
   {
     icon: <Boxes className="size-4 text-primary-foreground" />,
     title: "Stocks maîtrisés",
-    description: "Votre inventaire suivi en temps réel",
+    description: "Inventaire en temps réel",
     date: "Gestion de stock",
     className:
-      "[grid-area:stack] translate-x-16 translate-y-10 hover:-translate-y-1 before:absolute before:w-[100%] before:outline-1 before:rounded-xl before:outline-border before:h-[100%] before:content-[''] before:bg-blend-overlay before:bg-background/50 grayscale-[100%] hover:before:opacity-0 before:transition-opacity before:duration-700 hover:grayscale-0 before:left-0 before:top-0",
+      "[grid-area:stack] translate-x-8 translate-y-7 hover:-translate-y-1 before:absolute before:w-[100%] before:outline-1 before:rounded-xl before:outline-border before:h-[100%] before:content-[''] before:bg-blend-overlay before:bg-background/50 grayscale-[100%] hover:before:opacity-0 before:transition-opacity before:duration-700 hover:grayscale-0 before:left-0 before:top-0",
   },
   {
     icon: <Building2 className="size-4 text-primary-foreground" />,
     title: "Tout centralisé",
-    description: "Vos succursales pilotées d'un seul endroit",
+    description: "Toutes vos succursales",
     date: "Multi-succursales",
     className:
-      "[grid-area:stack] translate-x-32 translate-y-20 hover:translate-y-10",
+      "[grid-area:stack] translate-x-16 translate-y-14 hover:translate-y-10",
   },
 ];
 
@@ -53,7 +53,7 @@ const OPERATIONS = ["opérations", "fournisseurs", "achats", "succursales"];
 
 export function Hero() {
   return (
-    <section className="relative isolate overflow-hidden bg-black pb-20 pt-32 text-white sm:pb-28 sm:pt-40">
+    <section className="relative isolate overflow-hidden bg-black pb-16 pt-28 text-white sm:pb-28 sm:pt-40">
       {/* Animated 3D light beams background */}
       <div aria-hidden className="absolute inset-0 z-0">
         <Beams
@@ -75,17 +75,19 @@ export function Hero() {
       />
 
       <Container className="relative z-10">
-        <div className="grid items-center gap-14 lg:grid-cols-2">
+        <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-14">
           {/* Left — copy */}
           <div className="text-center lg:text-left">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, ease: "easeOut" }}
-              className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-sm text-white/90 backdrop-blur-xl"
+              className="mb-6 inline-flex max-w-full items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3 py-1.5 text-xs text-white/90 backdrop-blur-xl sm:px-4 sm:text-sm"
             >
-              <Sparkles className="h-4 w-4 text-primary" />
-              Commandes en ligne + Gestion opérationnelle
+              <Sparkles className="h-4 w-4 shrink-0 text-primary" />
+              <span className="truncate">
+                Commandes en ligne + Gestion opérationnelle
+              </span>
             </motion.div>
 
             <motion.h1
@@ -136,14 +138,13 @@ export function Hero() {
             >
               <MapPin className="h-4 w-4 text-primary" />
               Solution déjà utilisée en production par{" "}
-              <span className="font-medium text-white">Maison Burger</span> au
-              Canada.
+              <span className="font-medium text-white">Maison Burger</span>.
             </motion.p>
           </div>
 
           {/* Right — stacked highlight cards (dark-themed to blend with the beams) */}
-          <div className="flex justify-center py-10 lg:justify-end lg:py-0">
-            <div className="dark origin-center scale-[0.65] sm:scale-90 lg:scale-100">
+          <div className="flex w-full justify-center py-2 lg:py-0">
+            <div className="dark origin-center scale-[0.62] sm:scale-90 lg:scale-100">
               <DisplayCards cards={HERO_CARDS} />
             </div>
           </div>

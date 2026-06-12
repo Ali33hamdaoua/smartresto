@@ -28,7 +28,7 @@ export function buildMetadata({
       description: desc,
       url,
       siteName: siteConfig.name,
-      locale: "fr_CA",
+      locale: "fr_FR",
       type: "website",
     },
     twitter: {
