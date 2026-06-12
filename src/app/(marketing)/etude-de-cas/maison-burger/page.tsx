@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { useTranslations } from "next-intl";
 import { buildMetadata } from "@/lib/seo";
 import {
   CsHero,
@@ -21,6 +22,12 @@ export const metadata: Metadata = buildMetadata({
 });
 
 export default function MaisonBurgerCaseStudyPage() {
+  const t = useTranslations("caseStudy");
+  const s1Screens = t.raw("solution1.screens") as string[];
+  const s1Features = t.raw("solution1.features") as string[];
+  const s2Screens = t.raw("solution2.screens") as string[];
+  const s2Features = t.raw("solution2.features") as string[];
+
   return (
     <>
       <CsHero />
@@ -28,22 +35,22 @@ export default function MaisonBurgerCaseStudyPage() {
       <CsChallenges />
 
       <CsSolutionShowcase
-        eyebrow="Solution 1 — Commandes en ligne"
-        title="Une expérience de commande moderne et responsive"
-        subtitle="Un site de commande rapide et sans commission, optimisé pour les mobiles, de la découverte du menu jusqu'au paiement."
+        eyebrow={t("solution1.eyebrow")}
+        title={t("solution1.title")}
+        subtitle={t("solution1.subtitle")}
         frameLabel="maisonburger.ca"
-        screens={ORDERING.screens}
-        features={ORDERING.features}
+        screens={ORDERING.screens.map((sc, i) => ({ ...sc, label: s1Screens[i] }))}
+        features={s1Features}
         className="py-20 sm:py-28"
       />
 
       <CsSolutionShowcase
-        eyebrow="Solution 2 — Gestion opérationnelle"
-        title="Une plateforme unique pour les opérations"
-        subtitle="Inventaire, fournisseurs, achats, comptabilité et succursales réunis au même endroit."
+        eyebrow={t("solution2.eyebrow")}
+        title={t("solution2.title")}
+        subtitle={t("solution2.subtitle")}
         frameLabel="inventory.maisonburger.ca"
-        screens={OPERATIONS.screens}
-        features={OPERATIONS.features}
+        screens={OPERATIONS.screens.map((sc, i) => ({ ...sc, label: s2Screens[i] }))}
+        features={s2Features}
         className="bg-muted/30 py-20 sm:py-28"
       />
 

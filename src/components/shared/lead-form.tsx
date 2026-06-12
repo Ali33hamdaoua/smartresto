@@ -1,6 +1,7 @@
 "use client";
 
 import { useActionState } from "react";
+import { useTranslations } from "next-intl";
 import { CheckCircle2, AlertCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -11,26 +12,20 @@ import { sendLead, type LeadState } from "@/app/actions/send-lead";
 interface LeadFormProps {
   /** "contact" shows a message field; "demo" focuses on booking a demo. */
   variant?: "contact" | "demo";
-  submitLabel?: string;
 }
 
 const initialState: LeadState = { status: "idle" };
 
-export function LeadForm({
-  variant = "contact",
-  submitLabel = "Envoyer",
-}: LeadFormProps) {
+export function LeadForm({ variant = "contact" }: LeadFormProps) {
+  const t = useTranslations("form");
   const [state, formAction, isPending] = useActionState(sendLead, initialState);
 
   if (state.status === "success") {
     return (
       <div className="flex flex-col items-center gap-3 rounded-xl border bg-muted/30 p-8 text-center">
         <CheckCircle2 className="h-10 w-10 text-primary" />
-        <h3 className="text-lg font-semibold">Merci !</h3>
-        <p className="text-sm text-muted-foreground">
-          Votre demande a bien été envoyée. Notre équipe vous recontacte
-          rapidement.
-        </p>
+        <h3 className="text-lg font-semibold">{t("successTitle")}</h3>
+        <p className="text-sm text-muted-foreground">{t("successText")}</p>
       </div>
     );
   }
@@ -41,40 +36,50 @@ export function LeadForm({
 
       <div className="grid gap-4 sm:grid-cols-2">
         <div className="space-y-2">
-          <Label htmlFor="name">Nom complet</Label>
-          <Input id="name" name="name" required placeholder="Jean Tremblay" />
+          <Label htmlFor="name">{t("name")}</Label>
+          <Input
+            id="name"
+            name="name"
+            required
+            placeholder={t("placeholders.name")}
+          />
         </div>
         <div className="space-y-2">
-          <Label htmlFor="restaurant">Restaurant</Label>
+          <Label htmlFor="restaurant">{t("restaurant")}</Label>
           <Input
             id="restaurant"
             name="restaurant"
             required
-            placeholder="Maison Burger"
+            placeholder={t("placeholders.restaurant")}
           />
         </div>
       </div>
 
       <div className="grid gap-4 sm:grid-cols-2">
         <div className="space-y-2">
-          <Label htmlFor="email">Courriel</Label>
+          <Label htmlFor="email">{t("email")}</Label>
           <Input
             id="email"
             name="email"
             type="email"
             required
-            placeholder="jean@restaurant.ca"
+            placeholder={t("placeholders.email")}
           />
         </div>
         <div className="space-y-2">
-          <Label htmlFor="phone">Téléphone</Label>
-          <Input id="phone" name="phone" type="tel" placeholder="514 555-0199" />
+          <Label htmlFor="phone">{t("phone")}</Label>
+          <Input
+            id="phone"
+            name="phone"
+            type="tel"
+            placeholder={t("placeholders.phone")}
+          />
         </div>
       </div>
 
       <div className="space-y-2">
         <Label htmlFor="message">
-          {variant === "demo" ? "Vos besoins (optionnel)" : "Message"}
+          {variant === "demo" ? t("needs") : t("message")}
         </Label>
         <Textarea
           id="message"
@@ -83,8 +88,8 @@ export function LeadForm({
           required={variant === "contact"}
           placeholder={
             variant === "demo"
-              ? "Parlez-nous de votre restaurant et de vos objectifs…"
-              : "Comment pouvons-nous vous aider ?"
+              ? t("placeholders.messageDemo")
+              : t("placeholders.messageContact")
           }
         />
       </div>
@@ -102,7 +107,11 @@ export function LeadForm({
         className="w-full sm:w-auto"
         disabled={isPending}
       >
-        {isPending ? "Envoi…" : submitLabel}
+        {isPending
+          ? t("sending")
+          : variant === "demo"
+            ? t("submitDemo")
+            : t("submitContact")}
       </Button>
     </form>
   );

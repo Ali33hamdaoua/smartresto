@@ -1,0 +1,409 @@
+{
+  "language": "Language",
+  "nav": {
+    "solutions": "Solutions",
+    "why": "Why SmartResto",
+    "caseStudies": "Case studies",
+    "deployment": "Deployment",
+    "demo": "Request a demo",
+    "solutionsMenu": {
+      "title": "Our solutions",
+      "onlineOrdering": "Online ordering",
+      "onlineOrderingDesc": "Sell online, with no commission",
+      "inventory": "Inventory management",
+      "inventoryDesc": "Inventory, purchases and multi-branch"
+    }
+  },
+  "footer": {
+    "tagline": "SmartResto equips restaurants: commission-free online ordering and complete management of stock, suppliers, purchases and multi-branch accounting.",
+    "product": "Product",
+    "company": "Company",
+    "contact": "Contact",
+    "links": {
+      "onlineOrdering": "Online ordering",
+      "inventory": "Inventory management",
+      "pricing": "Pricing",
+      "caseStudies": "Case studies",
+      "requestDemo": "Request a demo"
+    },
+    "rights": "All rights reserved."
+  },
+  "hero": {
+    "badge": "Online ordering + Operations management",
+    "titlePre": "Centralize your orders, your stock and your",
+    "flipWords": ["operations", "suppliers", "purchases", "branches"],
+    "titlePost": "restaurant.",
+    "subtitle": "SmartResto helps restaurants sell online, manage their inventory, track purchases, organize suppliers and run multiple branches from a single platform.",
+    "ctaPrimary": "Request a demo",
+    "ctaSecondary": "See solutions",
+    "trust": "Already used in production by",
+    "cards": [
+      { "title": "No commission", "desc": "Sell with no commission", "tag": "Online ordering" },
+      { "title": "Stock under control", "desc": "Real-time inventory", "tag": "Inventory" },
+      { "title": "All centralized", "desc": "All your branches", "tag": "Multi-branch" }
+    ]
+  },
+  "home": {
+    "showcase": {
+      "eyebrow": "The platform",
+      "title": "Run your restaurant from a single platform",
+      "subtitle": "Online ordering, inventory, purchases, suppliers, accounting and multi-branch management — all in one solution."
+    },
+    "problem": {
+      "eyebrow": "The reality",
+      "title": "Running a restaurant shouldn't be this complicated",
+      "subtitle": "Restaurant owners juggle too many tools — and too many commissions.",
+      "items": [
+        { "title": "Commissions that eat your margins", "description": "Marketplaces take a percentage on every order, until your profit disappears." },
+        { "title": "Scattered tools", "description": "POS, inventory, suppliers and accounting live in systems that don't talk to each other." },
+        { "title": "No overall visibility", "description": "Hard to track your real costs and the performance of each branch day to day." }
+      ]
+    },
+    "solutions": {
+      "eyebrow": "Our solutions",
+      "title": "Two products that work together",
+      "subtitle": "Use one, the other, or both — depending on your restaurant's needs.",
+      "learnMore": "Learn more",
+      "items": [
+        { "name": "Online ordering", "tagline": "Your restaurant, open 24/7", "description": "A fast, commission-free online ordering site designed to turn your visitors into loyal customers.", "features": ["Fully customizable digital menu", "Dine-in, takeout and delivery ordering", "Secure online payment", "No commission per order"] },
+        { "name": "Inventory management", "tagline": "Control your costs, branch by branch", "description": "Inventory, suppliers, purchases and accounting brought together in a single multi-branch platform.", "features": ["Real-time inventory", "Supplier and purchase management", "Integrated accounting", "Consolidated multi-branch view"] }
+      ]
+    },
+    "caseStudyPreview": {
+      "badge": "Case study",
+      "title": "How Maison Burger regained control of its operations",
+      "description": "From commission-free online ordering to multi-branch inventory management, Maison Burger relies on SmartResto to serve faster and better control its costs.",
+      "cta": "Read the case study",
+      "stats": [
+        { "value": "0 %", "label": "commission per order" },
+        { "value": "3", "label": "branches run from one place" },
+        { "value": "24/7", "label": "online ordering" }
+      ]
+    },
+    "features": {
+      "eyebrow": "Features",
+      "title": "Everything you need to run your restaurant",
+      "subtitle": "From the first online order to multi-branch accounting.",
+      "items": [
+        { "title": "Online ordering", "description": "Fast, commission-free ordering site, ready for delivery and takeout." },
+        { "title": "Inventory management", "description": "Track your stock in real time and avoid costly shortages." },
+        { "title": "Purchases & suppliers", "description": "Centralize your supplier orders and invoices in one place." },
+        { "title": "Multi-branch", "description": "Run several locations from a single dashboard." },
+        { "title": "Accounting", "description": "Track your margins and profitability without spreadsheets or manual entry." },
+        { "title": "Reliable & secure", "description": "A reliable, secure infrastructure built for restaurants." }
+      ]
+    },
+    "why": {
+      "eyebrow": "Why SmartResto",
+      "title": "Built by and for restaurant owners",
+      "subtitle": "A platform that protects your margins and simplifies your day.",
+      "items": [
+        { "title": "Two solutions, one vision", "description": "Online ordering and operations management work together, no scattered tools." },
+        { "title": "No commission", "description": "You keep your margins: no percentage taken on each order." },
+        { "title": "Built for restaurants", "description": "Designed around a restaurant's real workflows, not generic logic." },
+        { "title": "Real support", "description": "A team that knows restaurants sets you up and supports you." }
+      ]
+    },
+    "cta": {
+      "title": "Ready to modernize your restaurant?",
+      "subtitle": "Book a free demo and discover how SmartResto can save you time and protect your margins.",
+      "primary": "Request a demo",
+      "secondary": "Contact us"
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Frequently asked questions",
+      "support": "Can't find what you're looking for? Contact our",
+      "supportLink": "support team",
+      "items": [
+        { "question": "What is SmartResto?", "answer": "SmartResto brings together two proven solutions: an online ordering site and a platform for inventory, suppliers, purchases and accounting for restaurants." },
+        { "question": "Do I need to adopt both solutions?", "answer": "No. Each solution works independently. You can start with one and add the other when you're ready." },
+        { "question": "Is there a commission on orders?", "answer": "No. Unlike marketplaces, SmartResto online ordering takes no commission per order." },
+        { "question": "Does SmartResto handle multiple branches?", "answer": "Yes. The management platform offers a consolidated view as well as detailed tracking per location." },
+        { "question": "How do I get started?", "answer": "Request a free demo. Our team sets up your environment and guides you every step of the way." }
+      ]
+    }
+  },
+  "form": {
+    "name": "Full name",
+    "restaurant": "Restaurant",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "needs": "Your needs (optional)",
+    "placeholders": {
+      "name": "John Smith",
+      "restaurant": "Maison Burger",
+      "email": "john@restaurant.com",
+      "phone": "+1 514 555-0199",
+      "messageContact": "How can we help you?",
+      "messageDemo": "Tell us about your restaurant and your goals…"
+    },
+    "submitContact": "Send message",
+    "submitDemo": "Book my demo",
+    "sending": "Sending…",
+    "successTitle": "Thank you!",
+    "successText": "Your request has been sent. Our team will get back to you shortly."
+  },
+  "solutionsPage": {
+    "eyebrow": "Our solutions",
+    "title": "Two products, one platform for your restaurant",
+    "description": "Adopt online ordering, inventory management, or both — depending on your needs."
+  },
+  "solutionDetail": {
+    "eyebrow": "Solution",
+    "whatsIncluded": "What's included",
+    "requestDemo": "Request a demo",
+    "viewOnline": "View online"
+  },
+  "pricing": {
+    "eyebrow": "Pricing",
+    "title": "A plan for every restaurant",
+    "description": "Simple, commission-free pricing. Contact us for a quote tailored to your establishment.",
+    "popular": "Most popular",
+    "plans": [
+      { "name": "Online ordering", "price": "On quote", "description": "For restaurants that want to sell online with no commission.", "features": ["Custom ordering site", "Dine-in, takeout and delivery", "Secure online payment", "No commission per order"], "cta": "Request a demo" },
+      { "name": "Full suite", "price": "On quote", "description": "Online ordering + multi-branch inventory management.", "features": ["Everything in online ordering", "Real-time inventory", "Suppliers, purchases and accounting", "Consolidated multi-branch view", "Priority support"], "cta": "Request a demo" },
+      { "name": "Inventory management", "price": "On quote", "description": "To manage inventory, purchases and accounting.", "features": ["Real-time inventory", "Supplier and purchase management", "Integrated accounting", "Multi-branch view"], "cta": "Request a demo" }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's talk about your restaurant",
+    "description": "Our team replies quickly.",
+    "joinTitle": "Get in touch",
+    "joinText": "Fill out the form and we'll get back to you soon. You can also email us directly."
+  },
+  "demo": {
+    "eyebrow": "Demo",
+    "title": "See SmartResto in action",
+    "description": "Book a free, personalized demo with our team.",
+    "benefitsTitle": "What you get",
+    "benefits": ["A demo tailored to your restaurant", "Answers to all your questions", "No commitment, no credit card"]
+  },
+  "notFound": {
+    "code": "Error 404",
+    "title": "Page not found",
+    "description": "Sorry, the page you're looking for doesn't exist or has been moved.",
+    "home": "Back to home"
+  },
+  "caseStudiesIndex": {
+    "eyebrow": "Case studies",
+    "title": "They use SmartResto in production",
+    "description": "See how restaurants run their operations with SmartResto.",
+    "read": "Read the case study",
+    "studies": [
+      { "name": "Maison Burger", "tags": ["Online ordering", "Operations management"], "description": "All operations centralized: orders, inventory, suppliers, purchases, accounting and multi-branch." },
+      { "name": "Yumiburger", "tags": ["Online ordering"], "description": "Modern, commission-free online ordering to sell directly to customers." }
+    ]
+  },
+  "deployment": {
+    "header": {
+      "eyebrow": "Deployment",
+      "title": "Your restaurant up and running in 7 days",
+      "description": "We set up your platform, import your data and support your team all the way to go-live."
+    },
+    "cta": {
+      "title": "Ready to launch your platform?",
+      "subtitle": "Book a demo and see how SmartResto gets your restaurant into production in a week.",
+      "button": "Request a demo"
+    },
+    "steps": [
+      { "title": "Analyzing your needs", "subtitle": "Day 1", "description": "We take the time to understand your restaurant, your menus, your order flows and your goals before any setup.", "items": ["Audit of how you currently operate (dine-in, takeout, delivery)", "Mapping of your menus and product categories", "Identifying your suppliers and purchasing habits", "Defining your team's access and roles", "Go-live goals and success metrics"] },
+      { "title": "Configuring the platform", "subtitle": "Day 2", "description": "We set up SmartResto to your needs: online ordering, inventory management and rules specific to your establishment.", "items": ["Creating your workspace and your branches", "Setting up ordering modes and delivery zones", "Configuring taxes, payments and receipts", "Setting stock and restocking rules", "Tuning notifications and automations"] },
+      { "title": "Importing your data", "subtitle": "Day 3", "description": "We import your existing data so you start with a system already filled and ready to use.", "items": ["Importing your full menu and prices", "Integrating your product and ingredient catalog", "Bringing over your suppliers and purchase records", "Loading your initial inventory", "Checking the consistency of imported data"] },
+      { "title": "Customizing your restaurant", "subtitle": "Day 4", "description": "We adapt the look and experience to your brand, for an ordering site that looks like you.", "items": ["Applying your logo, colors and visual identity", "Laying out your online ordering storefront", "Photos and descriptions of your signature dishes", "Setting up promotions and special menus", "Personalizing customer messages and confirmations"] },
+      { "title": "Training the team", "subtitle": "Day 5", "description": "We train your staff to master the platform from the very first service, stress-free.", "items": ["Getting started with order taking and the register", "Daily stock and receiving management", "Tracking online orders and delivery", "Reading dashboards and reports", "Best practices and handling common cases"] },
+      { "title": "Validation and testing", "subtitle": "Day 6", "description": "We test the whole journey in real conditions to guarantee a smooth launch.", "items": ["End-to-end order tests, payment included", "Checking multi-branch flows", "Stock, alerts and restocking checks", "Validating team access and permissions", "Final adjustments before go-live"] },
+      { "title": "Go-live", "subtitle": "Day 7", "description": "Your platform is live. You take your first orders while we stay by your side.", "items": ["Activating your online ordering site", "Live support during the first service", "Performance monitoring and quick fixes", "Post-launch follow-up", "Ongoing support and future improvements"] }
+    ]
+  },
+  "whyPage": {
+    "hero": {
+      "eyebrow": "Why SmartResto",
+      "title": "Why restaurants choose SmartResto",
+      "subtitlePre": "A single platform to centralize your",
+      "cycleWords": ["orders", "stock", "suppliers", "purchases", "operations", "branches"],
+      "subtitlePost": "and your operations.",
+      "ctaPrimary": "Request a demo",
+      "ctaSecondary": "See solutions"
+    },
+    "tools": {
+      "eyebrow": "The reality",
+      "title": "Restaurants use too many different tools",
+      "subtitle": "Each tool lives in its own corner — and that's where the problems begin.",
+      "items": [
+        { "title": "Excel", "description": "Inventory and costs on spreadsheets that quickly fall behind." },
+        { "title": "Paper", "description": "Handwritten orders and notes, easy to lose." },
+        { "title": "WhatsApp", "description": "Supplier orders scattered across messages." },
+        { "title": "Delivery platforms", "description": "Isolated, commission-heavy online orders." },
+        { "title": "Separate accounting tools", "description": "Accounting disconnected from the floor." }
+      ],
+      "consequencesLabel": "Disconnected systems lead to:",
+      "consequences": ["Wasted time", "Data entry errors", "Lack of visibility", "Duplicated work"]
+    },
+    "ecosystem": {
+      "eyebrow": "The solution",
+      "title": "Everything centralized in a single platform",
+      "subtitle": "Information flows between modules: an order updates stock, which feeds purchases and accounting.",
+      "hub": "SmartResto",
+      "hubSub": "Platform",
+      "modules": ["Orders", "Inventory", "Suppliers", "Purchases", "Accounting", "Branches"]
+    },
+    "comparison": {
+      "eyebrow": "Comparison",
+      "title": "A better alternative to fragmented solutions",
+      "subtitle": "What you get with SmartResto, compared to spreadsheets and separate tools.",
+      "feature": "Feature",
+      "separateTools": "Separate tools",
+      "rows": ["Online ordering", "Inventory management", "Suppliers", "Purchases", "Accounting", "Multi-branch", "Centralization", "Support"],
+      "legendIncluded": "Included",
+      "legendPartial": "Partial / manual",
+      "legendNo": "Not covered"
+    },
+    "operations": {
+      "eyebrow": "Credibility",
+      "title": "Built for real operations",
+      "subtitle": "SmartResto was built around a restaurant's real workflows — and it already runs in production at Maison Burger.",
+      "items": [
+        { "title": "Real needs", "description": "Built from the concrete problems restaurant owners face, not from a feature list." },
+        { "title": "Built for the floor", "description": "Flows follow the reality of a service: order, prep, stock, restocking." },
+        { "title": "Daily operation", "description": "Designed to be used every day by teams, simply, without heavy training." },
+        { "title": "Continuous improvement", "description": "The platform evolves with feedback from the floor and emerging needs." }
+      ]
+    },
+    "types": {
+      "eyebrow": "For whom?",
+      "title": "Which restaurants is it for?",
+      "subtitle": "From quick-service counters to multi-branch franchises, SmartResto adapts to your type of establishment.",
+      "items": [
+        { "title": "Burger", "description": "Fast service, high order volumes." },
+        { "title": "Pizza", "description": "Dine-in, takeout and delivery." },
+        { "title": "Sushi", "description": "Precise menus and fine-grained stock management." },
+        { "title": "Café", "description": "Fast turnover and recurring purchases." },
+        { "title": "Traditional restaurant", "description": "Rich menu and many suppliers." },
+        { "title": "Multi-branch", "description": "Several locations to manage." },
+        { "title": "Franchise", "description": "Consistency and control at scale." }
+      ]
+    },
+    "benefits": {
+      "eyebrow": "What you gain",
+      "title": "Concrete results, not a list of features",
+      "subtitle": "The goal isn't to add one more tool, but to improve how your restaurant runs.",
+      "items": [
+        { "title": "Time savings", "description": "Less double entry and back-and-forth between tools: your teams focus on service." },
+        { "title": "Fewer errors", "description": "Data entered once, shared everywhere — no more gaps between your systems." },
+        { "title": "Cost control", "description": "Purchases, stock and margins tracked in one place to decide with full insight." },
+        { "title": "Better visibility", "description": "A clear view of your operations, in real time and across every branch." },
+        { "title": "Centralization", "description": "Orders, inventory, suppliers and accounting brought together in a single platform." },
+        { "title": "Personalized support", "description": "A team that sets up the platform and follows you, from launch to daily use." }
+      ]
+    },
+    "maisonBurger": {
+      "badge": "Already used in production",
+      "title": "Maison Burger runs everything with SmartResto",
+      "description": "Our first production client uses the whole platform every day, across several branches.",
+      "cta": "Read the case study",
+      "modules": ["Online ordering", "Inventory", "Suppliers", "Purchases", "Accounting", "Multi-branch"]
+    },
+    "finalCta": {
+      "title": "Ready to modernize your restaurant's operations?",
+      "subtitle": "Discover how SmartResto can adapt to your establishment.",
+      "primary": "Request a demo",
+      "secondary": "Contact us"
+    }
+  },
+  "caseStudy": {
+    "hero": {
+      "badgeClient": "SmartResto client",
+      "badgeProduction": "In production",
+      "badgeMultiBranch": "Multi-branch",
+      "title": "How Maison Burger centralized its orders and operations",
+      "subtitle": "Maison Burger uses SmartResto to manage its online orders, inventory, suppliers, purchases and multi-branch operations from a single platform.",
+      "cta": "Request a demo"
+    },
+    "about": {
+      "eyebrow": "The client",
+      "title": "About Maison Burger",
+      "paragraph": "Maison Burger is a burger restaurant with several branches. Growing fast, the brand needed to bring its orders, stock and operations into a single tool — and to digitize a daily routine still largely handled by hand.",
+      "points": ["Burger-focused restaurant", "Several active branches", "A clear need to centralize operations", "A drive to digitize daily work"]
+    },
+    "challenges": {
+      "eyebrow": "Before SmartResto",
+      "title": "The challenges faced",
+      "subtitle": "Growth held back by scattered tools and manual processes.",
+      "items": [
+        { "title": "Order management", "description": "Orders scattered across phone, marketplaces and the counter, with no unified view." },
+        { "title": "Stock tracking", "description": "Inventory managed on spreadsheets, hard to keep up to date from one branch to another." },
+        { "title": "Supplier management", "description": "Suppliers and purchase orders tracked manually, a source of errors and oversights." },
+        { "title": "Purchase control", "description": "Little visibility into real purchasing costs and their impact on margins." },
+        { "title": "Multi-branch", "description": "No consolidated view of operations across all locations." }
+      ]
+    },
+    "solution1": {
+      "eyebrow": "Solution 1 — Online ordering",
+      "title": "A modern, responsive ordering experience",
+      "subtitle": "A fast, commission-free ordering site, optimized for mobile, from browsing the menu to payment.",
+      "screens": ["Home page", "Menu", "Cart"],
+      "features": ["Delivery", "Pickup", "Secure online payment", "Menu management", "Responsive mobile experience", "Order management"]
+    },
+    "solution2": {
+      "eyebrow": "Solution 2 — Operations management",
+      "title": "A single platform for operations",
+      "subtitle": "Inventory, suppliers, purchases, accounting and branches brought together in one place.",
+      "screens": ["Dashboard", "Inventory", "Suppliers", "Purchases", "Accounting", "Branches"],
+      "features": ["Centralized inventory", "Supplier management", "Purchase management", "Integrated accounting", "Full history", "Multi-branch management"]
+    },
+    "ecosystem": {
+      "eyebrow": "The ecosystem",
+      "title": "One platform, all modules connected",
+      "subtitle": "Each module talks to the others around a single core: SmartResto.",
+      "hub": "SmartResto",
+      "hubSub": "Platform",
+      "modules": ["Orders", "Inventory", "Suppliers", "Purchases", "Accounting", "Branches"]
+    },
+    "results": {
+      "eyebrow": "Result",
+      "title": "A centralized platform for daily operations",
+      "subtitle": "Maison Burger now has a single platform to run its daily operations from one interface.",
+      "items": [
+        { "title": "Centralized orders", "description": "All orders, online and in-store, brought together in one place." },
+        { "title": "Unified inventory", "description": "Stock tracked in real time, consistent across all branches." },
+        { "title": "Managed suppliers", "description": "Suppliers, purchases and invoices centralized and traceable." },
+        { "title": "Connected branches", "description": "A consolidated view to run every location." }
+      ]
+    },
+    "future": {
+      "eyebrow": "What's next",
+      "title": "A platform in constant evolution",
+      "description": "SmartResto evolves continuously based on Maison Burger's real needs. New features are regularly added and optimized to support the brand's growth."
+    },
+    "testimonial": {
+      "quote": "“Truly great quality of work, with maintenance provided 24/7 — weekends included. We really feel supported every day.”",
+      "name": "Amine El Ridaoui",
+      "role": "Founder & CEO, Maison Burger"
+    },
+    "finalCta": {
+      "title": "Want the same benefits for your restaurant?",
+      "subtitle": "Book a demo or talk to our team — we'll show you how to centralize your operations.",
+      "primary": "Request a demo",
+      "secondary": "Contact us"
+    },
+    "yumi": {
+      "badgeClient": "SmartResto client",
+      "badgeOrdering": "Online ordering",
+      "heroTitle": "How Yumiburger launched its online ordering",
+      "heroSubtitle": "Yumiburger uses SmartResto's online ordering solution to sell directly to its customers — fast and commission-free.",
+      "cta": "Request a demo",
+      "aboutEyebrow": "The client",
+      "aboutTitle": "About Yumiburger",
+      "aboutParagraph": "Yumiburger is a fast-growing burger brand. To support its growth, it wanted to offer fast online ordering, in its own image, and keep control of its sales — without third-party platform commissions.",
+      "aboutPoints": ["Fast-growing burger brand", "Presence across several outlets", "A desire to sell online, commission-free", "A modern, mobile ordering experience"],
+      "solutionEyebrow": "Solution — Online ordering",
+      "solutionTitle": "A modern, responsive ordering experience",
+      "solutionSubtitle": "A fast, commission-free ordering site, optimized for mobile, from browsing the menu to payment.",
+      "screens": ["Home page", "Menu", "Branches"],
+      "features": ["Delivery", "Pickup", "Secure online payment", "Menu management", "Responsive mobile experience", "Order management"]
+    }
+  }
+}

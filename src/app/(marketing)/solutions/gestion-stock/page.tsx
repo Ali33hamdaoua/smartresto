@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { useTranslations } from "next-intl";
 import { buildMetadata } from "@/lib/seo";
 import { getSolution } from "@/data/solutions";
 import { PageHeader } from "@/components/shared/page-header";
@@ -16,13 +17,16 @@ export const metadata: Metadata = buildMetadata({
 });
 
 export default function GestionStockPage() {
+  const td = useTranslations("solutionDetail");
+  const ts = useTranslations("home.solutions");
   if (!solution) notFound();
+  const content = (ts.raw("items") as { name: string; description: string }[])[1];
   return (
     <>
       <PageHeader
-        eyebrow="Solution"
-        title={solution.name}
-        description={solution.description}
+        eyebrow={td("eyebrow")}
+        title={content.name}
+        description={content.description}
       />
       <SolutionDetail solution={solution} />
       <Cta />

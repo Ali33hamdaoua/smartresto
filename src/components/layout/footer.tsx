@@ -1,6 +1,6 @@
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 import { Mail, Globe, Send } from "lucide-react";
-import { FOOTER_NAV } from "@/data/navigation";
 import { siteConfig } from "@/config/site";
 import { Logo } from "@/components/shared/logo";
 import {
@@ -8,30 +8,49 @@ import {
   FooterBackgroundGradient,
 } from "@/components/ui/hover-footer";
 
-const columns = [FOOTER_NAV.produit, FOOTER_NAV.entreprise];
-
 const socialLinks = [
-  { icon: Globe, label: "Site web", href: "/" },
-  { icon: Mail, label: "Courriel", href: `mailto:${siteConfig.email}` },
+  { icon: Globe, label: "Site", href: "/" },
+  { icon: Mail, label: "Email", href: `mailto:${siteConfig.email}` },
   { icon: Send, label: "Contact", href: "/contact" },
 ];
 
 export function Footer() {
+  const t = useTranslations("footer");
+
+  const columns = [
+    {
+      title: t("product"),
+      links: [
+        { label: t("links.onlineOrdering"), href: "/solutions/commande-en-ligne" },
+        { label: t("links.inventory"), href: "/solutions/gestion-stock" },
+        { label: t("links.pricing"), href: "/tarifs" },
+      ],
+    },
+    {
+      title: t("company"),
+      links: [
+        { label: t("links.caseStudies"), href: "/etude-de-cas" },
+        { label: t("contact"), href: "/contact" },
+        { label: t("links.requestDemo"), href: "/demo" },
+      ],
+    },
+  ];
+
   return (
     <footer className="relative m-4 h-fit overflow-hidden rounded-3xl bg-[#0F0F11] text-neutral-300 sm:m-6 lg:m-8">
       <div className="relative z-40 mx-auto max-w-7xl p-8 sm:p-12 lg:p-14">
         <div className="grid grid-cols-1 gap-12 pb-12 md:grid-cols-2 md:gap-8 lg:grid-cols-4 lg:gap-16">
           {/* Brand */}
           <div className="flex flex-col space-y-4">
-            <Link href="/" aria-label="SmartResto — Accueil">
+            <Link href="/" aria-label="SmartResto">
               <Logo className="h-14" />
             </Link>
             <p className="max-w-xs text-sm leading-relaxed text-neutral-400">
-              {siteConfig.description}
+              {t("tagline")}
             </p>
           </div>
 
-          {/* Link columns (your FOOTER_NAV) */}
+          {/* Link columns */}
           {columns.map((column) => (
             <div key={column.title}>
               <h4 className="mb-6 text-lg font-semibold text-white">
@@ -54,7 +73,9 @@ export function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="mb-6 text-lg font-semibold text-white">Contact</h4>
+            <h4 className="mb-6 text-lg font-semibold text-white">
+              {t("contact")}
+            </h4>
             <ul className="space-y-4 text-sm">
               <li className="flex items-center gap-3">
                 <Mail size={18} className="shrink-0 text-primary" />
@@ -70,7 +91,7 @@ export function Footer() {
                   href="/demo"
                   className="font-medium text-primary transition-colors hover:text-primary/80"
                 >
-                  Demander une démo →
+                  {t("links.requestDemo")} →
                 </Link>
               </li>
             </ul>
@@ -94,7 +115,7 @@ export function Footer() {
             ))}
           </div>
           <p className="text-center text-neutral-500 md:text-left">
-            © {new Date().getFullYear()} {siteConfig.name}. Tous droits réservés.
+            © {new Date().getFullYear()} {siteConfig.name}. {t("rights")}
           </p>
         </div>
       </div>

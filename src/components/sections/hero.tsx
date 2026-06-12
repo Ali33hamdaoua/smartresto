@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import dynamic from "next/dynamic";
+import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import {
   MapPin,
@@ -15,28 +16,20 @@ import { Container } from "@/components/shared/container";
 import { FlipWords } from "@/components/ui/flip-words";
 import DisplayCards from "@/components/ui/display-cards";
 
-const HERO_CARDS = [
+// Static visual parts (icons + stack positioning); text comes from translations.
+const CARD_META = [
   {
     icon: <ShoppingCart className="size-4 text-primary-foreground" />,
-    title: "Sans commission",
-    description: "Vendez sans commission",
-    date: "Commande en ligne",
     className:
       "[grid-area:stack] hover:-translate-y-10 before:absolute before:w-[100%] before:outline-1 before:rounded-xl before:outline-border before:h-[100%] before:content-[''] before:bg-blend-overlay before:bg-background/50 grayscale-[100%] hover:before:opacity-0 before:transition-opacity before:duration-700 hover:grayscale-0 before:left-0 before:top-0",
   },
   {
     icon: <Boxes className="size-4 text-primary-foreground" />,
-    title: "Stocks maîtrisés",
-    description: "Inventaire en temps réel",
-    date: "Gestion de stock",
     className:
       "[grid-area:stack] translate-x-8 translate-y-7 hover:-translate-y-1 before:absolute before:w-[100%] before:outline-1 before:rounded-xl before:outline-border before:h-[100%] before:content-[''] before:bg-blend-overlay before:bg-background/50 grayscale-[100%] hover:before:opacity-0 before:transition-opacity before:duration-700 hover:grayscale-0 before:left-0 before:top-0",
   },
   {
     icon: <Building2 className="size-4 text-primary-foreground" />,
-    title: "Tout centralisé",
-    description: "Toutes vos succursales",
-    date: "Multi-succursales",
     className:
       "[grid-area:stack] translate-x-16 translate-y-14 hover:translate-y-10",
   },
@@ -49,9 +42,19 @@ const Beams = dynamic(
   { ssr: false },
 );
 
-const OPERATIONS = ["opérations", "fournisseurs", "achats", "succursales"];
-
 export function Hero() {
+  const t = useTranslations("hero");
+  const flipWords = t.raw("flipWords") as string[];
+  const cards = (t.raw("cards") as { title: string; desc: string; tag: string }[]).map(
+    (c, i) => ({
+      icon: CARD_META[i].icon,
+      title: c.title,
+      description: c.desc,
+      date: c.tag,
+      className: CARD_META[i].className,
+    }),
+  );
+
   return (
     <section className="relative isolate overflow-hidden bg-black pb-16 pt-28 text-white sm:pb-28 sm:pt-40">
       {/* Animated 3D light beams background */}
@@ -77,7 +80,7 @@ export function Hero() {
       <Container className="relative z-10">
         <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-14">
           {/* Left — copy */}
-          <div className="text-center lg:text-left">
+          <div className="text-center lg:text-start">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -85,9 +88,7 @@ export function Hero() {
               className="mb-6 inline-flex max-w-full items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3 py-1.5 text-xs text-white/90 backdrop-blur-xl sm:px-4 sm:text-sm"
             >
               <Sparkles className="h-4 w-4 shrink-0 text-primary" />
-              <span className="truncate">
-                Commandes en ligne + Gestion opérationnelle
-              </span>
+              <span className="truncate">{t("badge")}</span>
             </motion.div>
 
             <motion.h1
@@ -96,8 +97,8 @@ export function Hero() {
               transition={{ duration: 0.6, delay: 0.05, ease: "easeOut" }}
               className="text-4xl font-bold tracking-tight text-balance text-white sm:text-5xl xl:text-6xl"
             >
-              Centralisez vos commandes, vos stocks et vos{" "}
-              <FlipWords words={OPERATIONS} className="px-0" /> restaurant.
+              {t("titlePre")}{" "}
+              <FlipWords words={flipWords} className="px-0" /> {t("titlePost")}
             </motion.h1>
 
             <motion.p
@@ -106,9 +107,7 @@ export function Hero() {
               transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
               className="mx-auto mt-6 max-w-xl text-lg text-white/70 lg:mx-0"
             >
-              SmartResto aide les restaurants à vendre en ligne, gérer leurs
-              inventaires, suivre leurs achats, organiser leurs fournisseurs et
-              piloter plusieurs succursales depuis une seule plateforme.
+              {t("subtitle")}
             </motion.p>
 
             <motion.div
@@ -118,7 +117,7 @@ export function Hero() {
               className="mt-8 flex flex-col items-center gap-3 sm:flex-row lg:justify-start"
             >
               <Button asChild size="lg" className="shadow-2xl shadow-primary/25">
-                <Link href="/demo">Demander une démo</Link>
+                <Link href="/demo">{t("ctaPrimary")}</Link>
               </Button>
               <Button
                 asChild
@@ -126,7 +125,7 @@ export function Hero() {
                 variant="outline"
                 className="border-white/25 bg-white/5 text-white backdrop-blur-xl hover:bg-white/10 hover:text-white"
               >
-                <Link href="/solutions">Voir les solutions</Link>
+                <Link href="/solutions">{t("ctaSecondary")}</Link>
               </Button>
             </motion.div>
 
@@ -137,7 +136,7 @@ export function Hero() {
               className="mt-6 inline-flex items-center gap-2 text-sm text-white/60"
             >
               <MapPin className="h-4 w-4 text-primary" />
-              Solution déjà utilisée en production par{" "}
+              {t("trust")}{" "}
               <span className="font-medium text-white">Maison Burger</span>.
             </motion.p>
           </div>
@@ -145,7 +144,7 @@ export function Hero() {
           {/* Right — stacked highlight cards (dark-themed to blend with the beams) */}
           <div className="flex w-full justify-center py-2 lg:py-0">
             <div className="dark origin-center scale-[0.62] sm:scale-90 lg:scale-100">
-              <DisplayCards cards={HERO_CARDS} />
+              <DisplayCards cards={cards} />
             </div>
           </div>
         </div>

@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { NextIntlClientProvider } from "next-intl";
+import { getLocale, getMessages } from "next-intl/server";
+import { rtlLocales, type Locale } from "@/i18n/config";
 import { siteConfig } from "@/config/site";
 import "./globals.css";
 
@@ -48,15 +51,19 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
-  // lang="fr" today. The future FR/EN switch lives at this single attribute
-  // plus an optional [locale] route segment — the component tree stays unchanged.
+  const locale = await getLocale();
+  const messages = await getMessages();
+  const dir = rtlLocales.includes(locale as Locale) ? "rtl" : "ltr";
+
   return (
-    <html lang="fr" className={`${inter.variable} h-full antialiased`}>
+    <html lang={locale} dir={dir} className={`${inter.variable} h-full antialiased`}>
       <body className="flex min-h-full flex-col bg-background text-foreground">
-        {children}
+        <NextIntlClientProvider locale={locale} messages={messages}>
+          {children}
+        </NextIntlClientProvider>
       </body>
     </html>
   );

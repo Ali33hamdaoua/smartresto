@@ -1,19 +1,14 @@
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui/button";
 import { Container } from "@/components/shared/container";
 import { Reveal } from "@/components/shared/reveal";
 import AnimatedTextCycle from "@/components/ui/animated-text-cycle";
 
-const CYCLE_WORDS = [
-  "commandes",
-  "stocks",
-  "fournisseurs",
-  "achats",
-  "opérations",
-  "succursales",
-];
-
 export function WhyHero() {
+  const t = useTranslations("whyPage.hero");
+  const cycleWords = t.raw("cycleWords") as string[];
+
   return (
     <section className="relative overflow-hidden border-b bg-muted/30 pb-20 pt-28 sm:pb-28 sm:pt-32">
       <div
@@ -23,26 +18,26 @@ export function WhyHero() {
       <Container className="text-center">
         <Reveal>
           <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-primary">
-            Pourquoi SmartResto
+            {t("eyebrow")}
           </p>
           <h1 className="mx-auto max-w-4xl text-4xl font-bold tracking-tight text-balance sm:text-5xl">
-            Pourquoi les restaurants choisissent SmartResto
+            {t("title")}
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground">
-            Une seule plateforme pour centraliser vos{" "}
+            {t("subtitlePre")}{" "}
             <AnimatedTextCycle
-              words={CYCLE_WORDS}
+              words={cycleWords}
               interval={2200}
               className="text-primary"
             />{" "}
-            et vos opérations.
+            {t("subtitlePost")}
           </p>
           <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
             <Button asChild size="lg">
-              <Link href="/demo">Demander une démo</Link>
+              <Link href="/demo">{t("ctaPrimary")}</Link>
             </Button>
             <Button asChild size="lg" variant="outline">
-              <Link href="/solutions">Voir les solutions</Link>
+              <Link href="/solutions">{t("ctaSecondary")}</Link>
             </Button>
           </div>
         </Reveal>

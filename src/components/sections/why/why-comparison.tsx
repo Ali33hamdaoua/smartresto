@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 import { Check, X, Minus } from "lucide-react";
 import {
   Table,
@@ -10,7 +11,6 @@ import {
 import { SectionHeading } from "@/components/shared/section-heading";
 import { Container } from "@/components/shared/container";
 import { Reveal } from "@/components/shared/reveal";
-import { cn } from "@/lib/utils";
 import { COMPARISON_ROWS, type Support } from "@/data/why-page";
 
 function SupportCell({ value }: { value: Support }) {
@@ -36,12 +36,15 @@ function SupportCell({ value }: { value: Support }) {
 }
 
 export function WhyComparison() {
+  const t = useTranslations("whyPage.comparison");
+  const rows = t.raw("rows") as string[];
+
   return (
     <section className="py-20 sm:py-28">
       <SectionHeading
-        eyebrow="Comparatif"
-        title="Une meilleure alternative aux solutions fragmentées"
-        subtitle="Ce que vous obtenez avec SmartResto, par rapport aux tableurs et aux outils séparés."
+        eyebrow={t("eyebrow")}
+        title={t("title")}
+        subtitle={t("subtitle")}
       />
 
       <Container className="mt-12 max-w-3xl">
@@ -51,7 +54,7 @@ export function WhyComparison() {
               <TableHeader>
                 <TableRow className="bg-muted/40 hover:bg-muted/40">
                   <TableHead className="text-foreground">
-                    Fonctionnalité
+                    {t("feature")}
                   </TableHead>
                   <TableHead className="text-center font-semibold text-primary">
                     SmartResto
@@ -60,20 +63,15 @@ export function WhyComparison() {
                     Excel
                   </TableHead>
                   <TableHead className="text-center text-foreground">
-                    Outils séparés
+                    {t("separateTools")}
                   </TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody>
-                {COMPARISON_ROWS.map((row) => (
+                {COMPARISON_ROWS.map((row, i) => (
                   <TableRow key={row.label}>
-                    <TableCell className="font-medium">{row.label}</TableCell>
-                    <TableCell
-                      className={cn(
-                        "text-center",
-                        "bg-primary/[0.03]",
-                      )}
-                    >
+                    <TableCell className="font-medium">{rows[i]}</TableCell>
+                    <TableCell className="bg-primary/[0.03] text-center">
                       <SupportCell value={row.smartresto} />
                     </TableCell>
                     <TableCell className="text-center">
@@ -90,13 +88,13 @@ export function WhyComparison() {
 
           <div className="mt-4 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs text-muted-foreground">
             <span className="inline-flex items-center gap-1.5">
-              <Check className="h-3.5 w-3.5 text-primary" /> Inclus
+              <Check className="h-3.5 w-3.5 text-primary" /> {t("legendIncluded")}
             </span>
             <span className="inline-flex items-center gap-1.5">
-              <Minus className="h-3.5 w-3.5" /> Partiel / manuel
+              <Minus className="h-3.5 w-3.5" /> {t("legendPartial")}
             </span>
             <span className="inline-flex items-center gap-1.5">
-              <X className="h-3.5 w-3.5" /> Non couvert
+              <X className="h-3.5 w-3.5" /> {t("legendNo")}
             </span>
           </div>
         </Reveal>

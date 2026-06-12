@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { useTranslations } from "next-intl";
 import { Mail } from "lucide-react";
 import { buildMetadata } from "@/lib/seo";
 import { siteConfig } from "@/config/site";
@@ -15,22 +16,21 @@ export const metadata: Metadata = buildMetadata({
 });
 
 export default function ContactPage() {
+  const t = useTranslations("contact");
+
   return (
     <>
       <PageHeader
-        eyebrow="Contact"
-        title="Parlons de votre restaurant"
-        description="Notre équipe vous répond rapidement."
+        eyebrow={t("eyebrow")}
+        title={t("title")}
+        description={t("description")}
       />
       <section className="py-20 sm:py-28">
         <Container className="grid gap-12 lg:grid-cols-[1fr_1.2fr]">
           <Reveal>
             <div className="space-y-6">
-              <h2 className="text-xl font-semibold">Nous joindre</h2>
-              <p className="text-muted-foreground">
-                Remplissez le formulaire et nous reviendrons vers vous sous peu.
-                Vous pouvez aussi nous écrire directement.
-              </p>
+              <h2 className="text-xl font-semibold">{t("joinTitle")}</h2>
+              <p className="text-muted-foreground">{t("joinText")}</p>
               <a
                 href={`mailto:${siteConfig.email}`}
                 className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline"
@@ -43,7 +43,7 @@ export default function ContactPage() {
 
           <Reveal delay={0.1}>
             <GradientCard className="p-6 sm:p-8">
-              <LeadForm variant="contact" submitLabel="Envoyer le message" />
+              <LeadForm variant="contact" />
             </GradientCard>
           </Reveal>
         </Container>

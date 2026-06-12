@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { useTranslations } from "next-intl";
 import { buildMetadata } from "@/lib/seo";
 import { PageHeader } from "@/components/shared/page-header";
 import { SolutionsOverview } from "@/components/sections/solutions-overview";
@@ -12,12 +13,13 @@ export const metadata: Metadata = buildMetadata({
 });
 
 export default function SolutionsPage() {
+  const t = useTranslations("solutionsPage");
   return (
     <>
       <PageHeader
-        eyebrow="Nos solutions"
-        title="Deux produits, une plateforme pour votre restaurant"
-        description="Adoptez la commande en ligne, la gestion de stock, ou les deux — selon vos besoins."
+        eyebrow={t("eyebrow")}
+        title={t("title")}
+        description={t("description")}
       />
       <SolutionsOverview />
       <Cta />

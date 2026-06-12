@@ -1,0 +1,409 @@
+{
+  "language": "Idioma",
+  "nav": {
+    "solutions": "Soluciones",
+    "why": "Por qué SmartResto",
+    "caseStudies": "Casos de éxito",
+    "deployment": "Implementación",
+    "demo": "Solicitar una demo",
+    "solutionsMenu": {
+      "title": "Nuestras soluciones",
+      "onlineOrdering": "Pedidos en línea",
+      "onlineOrderingDesc": "Vende en línea, sin comisión",
+      "inventory": "Gestión de stock",
+      "inventoryDesc": "Inventario, compras y multisucursal"
+    }
+  },
+  "footer": {
+    "tagline": "SmartResto equipa a los restaurantes: pedidos en línea sin comisión y gestión completa de stock, proveedores, compras y contabilidad multisucursal.",
+    "product": "Producto",
+    "company": "Empresa",
+    "contact": "Contacto",
+    "links": {
+      "onlineOrdering": "Pedidos en línea",
+      "inventory": "Gestión de stock",
+      "pricing": "Precios",
+      "caseStudies": "Casos de éxito",
+      "requestDemo": "Solicitar una demo"
+    },
+    "rights": "Todos los derechos reservados."
+  },
+  "hero": {
+    "badge": "Pedidos en línea + Gestión operativa",
+    "titlePre": "Centraliza tus pedidos, tu inventario y tus",
+    "flipWords": ["operaciones", "proveedores", "compras", "sucursales"],
+    "titlePost": "del restaurante.",
+    "subtitle": "SmartResto ayuda a los restaurantes a vender en línea, gestionar su inventario, controlar sus compras, organizar a sus proveedores y administrar varias sucursales desde una sola plataforma.",
+    "ctaPrimary": "Solicitar una demo",
+    "ctaSecondary": "Ver soluciones",
+    "trust": "Ya utilizada en producción por",
+    "cards": [
+      { "title": "Sin comisión", "desc": "Vende sin comisión", "tag": "Pedidos en línea" },
+      { "title": "Inventario controlado", "desc": "Inventario en tiempo real", "tag": "Gestión de stock" },
+      { "title": "Todo centralizado", "desc": "Todas tus sucursales", "tag": "Multisucursal" }
+    ]
+  },
+  "home": {
+    "showcase": {
+      "eyebrow": "La plataforma",
+      "title": "Gestiona tu restaurante desde una sola plataforma",
+      "subtitle": "Pedidos en línea, inventario, compras, proveedores, contabilidad y gestión multisucursal en una sola solución."
+    },
+    "problem": {
+      "eyebrow": "La realidad",
+      "title": "Gestionar un restaurante no debería ser tan complicado",
+      "subtitle": "Los restauranteros usan demasiadas herramientas — y demasiadas comisiones.",
+      "items": [
+        { "title": "Comisiones que devoran tus márgenes", "description": "Los marketplaces cobran un porcentaje en cada pedido, hasta borrar tu beneficio." },
+        { "title": "Herramientas dispersas", "description": "Caja, inventario, proveedores y contabilidad viven en sistemas que no se comunican." },
+        { "title": "Sin visión global", "description": "Difícil seguir tus costes reales y el rendimiento de cada sucursal a diario." }
+      ]
+    },
+    "solutions": {
+      "eyebrow": "Nuestras soluciones",
+      "title": "Dos productos que trabajan juntos",
+      "subtitle": "Usa uno, el otro o ambos — según las necesidades de tu restaurante.",
+      "learnMore": "Saber más",
+      "items": [
+        { "name": "Pedidos en línea", "tagline": "Tu restaurante, abierto 24/7", "description": "Un sitio de pedidos en línea rápido y sin comisión, diseñado para convertir a tus visitantes en clientes fieles.", "features": ["Menú digital totalmente personalizable", "Pedidos en local, para llevar y a domicilio", "Pago en línea seguro", "Sin comisión por pedido"] },
+        { "name": "Gestión de stock", "tagline": "Controla tus costes, sucursal por sucursal", "description": "Inventario, proveedores, compras y contabilidad reunidos en una sola plataforma multisucursal.", "features": ["Inventario en tiempo real", "Gestión de proveedores y compras", "Contabilidad integrada", "Vista consolidada multisucursal"] }
+      ]
+    },
+    "caseStudyPreview": {
+      "badge": "Caso de éxito",
+      "title": "Cómo Maison Burger recuperó el control de sus operaciones",
+      "description": "Desde los pedidos en línea sin comisión hasta la gestión de stock multisucursal, Maison Burger confía en SmartResto para servir más rápido y controlar mejor sus costes.",
+      "cta": "Leer el caso de éxito",
+      "stats": [
+        { "value": "0 %", "label": "de comisión por pedido" },
+        { "value": "3", "label": "sucursales gestionadas en un solo lugar" },
+        { "value": "24/7", "label": "de pedidos en línea" }
+      ]
+    },
+    "features": {
+      "eyebrow": "Funcionalidades",
+      "title": "Todo lo que necesitas para gestionar tu restaurante",
+      "subtitle": "Desde el primer pedido en línea hasta la contabilidad multisucursal.",
+      "items": [
+        { "title": "Pedidos en línea", "description": "Sitio de pedidos rápido, sin comisión, listo para entrega y para llevar." },
+        { "title": "Gestión de inventario", "description": "Controla tu stock en tiempo real y evita roturas costosas." },
+        { "title": "Compras y proveedores", "description": "Centraliza tus pedidos a proveedores y tus facturas en un solo lugar." },
+        { "title": "Multisucursal", "description": "Gestiona varios establecimientos desde un único panel." },
+        { "title": "Contabilidad", "description": "Controla tus márgenes y tu rentabilidad sin hojas de cálculo ni entrada manual." },
+        { "title": "Fiable y seguro", "description": "Una infraestructura fiable y segura, pensada para la restauración." }
+      ]
+    },
+    "why": {
+      "eyebrow": "Por qué SmartResto",
+      "title": "Creado por y para restauranteros",
+      "subtitle": "Una plataforma que protege tus márgenes y simplifica tu día a día.",
+      "items": [
+        { "title": "Dos soluciones, una visión", "description": "Los pedidos en línea y la gestión de operaciones trabajan juntos, sin herramientas dispersas." },
+        { "title": "Sin comisión", "description": "Conservas tus márgenes: ningún porcentaje sobre cada pedido." },
+        { "title": "Pensado para la restauración", "description": "Diseñado en torno a los flujos reales de un restaurante, no a una lógica genérica." },
+        { "title": "Acompañamiento real", "description": "Un equipo que conoce la restauración te configura y te apoya." }
+      ]
+    },
+    "cta": {
+      "title": "¿Listo para modernizar tu restaurante?",
+      "subtitle": "Reserva una demo gratuita y descubre cómo SmartResto puede ahorrarte tiempo y proteger tus márgenes.",
+      "primary": "Solicitar una demo",
+      "secondary": "Contáctanos"
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Preguntas frecuentes",
+      "support": "¿No encuentras lo que buscas? Contacta a nuestro",
+      "supportLink": "equipo de soporte",
+      "items": [
+        { "question": "¿Qué es SmartResto?", "answer": "SmartResto reúne dos soluciones probadas: un sitio de pedidos en línea y una plataforma de gestión de stock, proveedores, compras y contabilidad para restaurantes." },
+        { "question": "¿Hay que adoptar las dos soluciones?", "answer": "No. Cada solución funciona de forma independiente. Puedes empezar con una y añadir la otra cuando estés listo." },
+        { "question": "¿Hay comisión sobre los pedidos?", "answer": "No. A diferencia de los marketplaces, los pedidos en línea de SmartResto no cobran comisión por pedido." },
+        { "question": "¿SmartResto gestiona varias sucursales?", "answer": "Sí. La plataforma de gestión ofrece una vista consolidada y un seguimiento detallado por establecimiento." },
+        { "question": "¿Cómo empiezo?", "answer": "Solicita una demo gratuita. Nuestro equipo configura tu entorno y te acompaña en cada paso." }
+      ]
+    }
+  },
+  "form": {
+    "name": "Nombre completo",
+    "restaurant": "Restaurante",
+    "email": "Correo",
+    "phone": "Teléfono",
+    "message": "Mensaje",
+    "needs": "Tus necesidades (opcional)",
+    "placeholders": {
+      "name": "Juan Pérez",
+      "restaurant": "Maison Burger",
+      "email": "juan@restaurante.com",
+      "phone": "+34 612 345 678",
+      "messageContact": "¿Cómo podemos ayudarte?",
+      "messageDemo": "Cuéntanos sobre tu restaurante y tus objetivos…"
+    },
+    "submitContact": "Enviar mensaje",
+    "submitDemo": "Reservar mi demo",
+    "sending": "Enviando…",
+    "successTitle": "¡Gracias!",
+    "successText": "Tu solicitud se ha enviado. Nuestro equipo te contactará en breve."
+  },
+  "solutionsPage": {
+    "eyebrow": "Nuestras soluciones",
+    "title": "Dos productos, una plataforma para tu restaurante",
+    "description": "Adopta los pedidos en línea, la gestión de stock o ambos — según tus necesidades."
+  },
+  "solutionDetail": {
+    "eyebrow": "Solución",
+    "whatsIncluded": "Qué incluye",
+    "requestDemo": "Solicitar una demo",
+    "viewOnline": "Ver en línea"
+  },
+  "pricing": {
+    "eyebrow": "Precios",
+    "title": "Un plan para cada restaurante",
+    "description": "Precios simples y sin comisión. Contáctanos para un presupuesto adaptado a tu establecimiento.",
+    "popular": "Más popular",
+    "plans": [
+      { "name": "Pedidos en línea", "price": "A consultar", "description": "Para restaurantes que quieren vender en línea sin comisión.", "features": ["Sitio de pedidos personalizado", "En local, para llevar y a domicilio", "Pago en línea seguro", "Sin comisión por pedido"], "cta": "Solicitar una demo" },
+      { "name": "Suite completa", "price": "A consultar", "description": "Pedidos en línea + gestión de stock multisucursal.", "features": ["Todo lo de pedidos en línea", "Inventario en tiempo real", "Proveedores, compras y contabilidad", "Vista consolidada multisucursal", "Soporte prioritario"], "cta": "Solicitar una demo" },
+      { "name": "Gestión de stock", "price": "A consultar", "description": "Para gestionar inventario, compras y contabilidad.", "features": ["Inventario en tiempo real", "Gestión de proveedores y compras", "Contabilidad integrada", "Vista multisucursal"], "cta": "Solicitar una demo" }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contacto",
+    "title": "Hablemos de tu restaurante",
+    "description": "Nuestro equipo responde rápido.",
+    "joinTitle": "Contáctanos",
+    "joinText": "Rellena el formulario y te responderemos pronto. También puedes escribirnos directamente."
+  },
+  "demo": {
+    "eyebrow": "Demo",
+    "title": "Mira SmartResto en acción",
+    "description": "Reserva una demo gratuita y personalizada con nuestro equipo.",
+    "benefitsTitle": "Lo que obtienes",
+    "benefits": ["Una demo adaptada a tu restaurante", "Respuestas a todas tus preguntas", "Sin compromiso, sin tarjeta de crédito"]
+  },
+  "notFound": {
+    "code": "Error 404",
+    "title": "Página no encontrada",
+    "description": "Lo sentimos, la página que buscas no existe o ha sido movida.",
+    "home": "Volver al inicio"
+  },
+  "caseStudiesIndex": {
+    "eyebrow": "Casos de éxito",
+    "title": "Usan SmartResto en producción",
+    "description": "Descubre cómo los restaurantes gestionan sus operaciones con SmartResto.",
+    "read": "Leer el caso de éxito",
+    "studies": [
+      { "name": "Maison Burger", "tags": ["Pedidos en línea", "Gestión operativa"], "description": "Todas las operaciones centralizadas: pedidos, inventario, proveedores, compras, contabilidad y multisucursal." },
+      { "name": "Yumiburger", "tags": ["Pedidos en línea"], "description": "Pedidos en línea modernos y sin comisión, para vender directamente a los clientes." }
+    ]
+  },
+  "deployment": {
+    "header": {
+      "eyebrow": "Implementación",
+      "title": "Tu restaurante operativo en 7 días",
+      "description": "Configuramos tu plataforma, importamos tus datos y acompañamos a tu equipo hasta la puesta en marcha."
+    },
+    "cta": {
+      "title": "¿Listo para lanzar tu plataforma?",
+      "subtitle": "Reserva una demo y descubre cómo SmartResto pone tu restaurante en producción en una semana.",
+      "button": "Solicitar una demo"
+    },
+    "steps": [
+      { "title": "Análisis de tus necesidades", "subtitle": "Día 1", "description": "Nos tomamos el tiempo de entender tu restaurante, tus menús, tus flujos de pedidos y tus objetivos antes de cualquier configuración.", "items": ["Auditoría de tu funcionamiento actual (en local, para llevar, a domicilio)", "Mapeo de tus menús y categorías de productos", "Identificación de tus proveedores y hábitos de compra", "Definición de los accesos y roles de tu equipo", "Objetivos de puesta en marcha e indicadores de éxito"] },
+      { "title": "Configuración de la plataforma", "subtitle": "Día 2", "description": "Configuramos SmartResto según tus necesidades: pedidos en línea, gestión de stock y reglas propias de tu establecimiento.", "items": ["Creación de tu espacio y tus sucursales", "Configuración de los modos de pedido y zonas de entrega", "Configuración de impuestos, pagos y recibos", "Establecimiento de reglas de stock y reabastecimiento", "Ajuste de notificaciones y automatizaciones"] },
+      { "title": "Importación de los datos", "subtitle": "Día 3", "description": "Importamos tus datos existentes para que empieces con un sistema ya completo y listo para usar.", "items": ["Importación de tu menú completo y tus precios", "Integración de tu catálogo de productos e ingredientes", "Traspaso de tus proveedores y fichas de compra", "Carga de tu inventario inicial", "Verificación de la coherencia de los datos importados"] },
+      { "title": "Personalización de tu restaurante", "subtitle": "Día 4", "description": "Adaptamos la apariencia y la experiencia a tu marca, para un sitio de pedidos que se parezca a ti.", "items": ["Aplicación de tu logo, colores e identidad visual", "Diseño de tu escaparate de pedidos en línea", "Fotos y descripciones de tus platos estrella", "Configuración de promociones y menús especiales", "Personalización de mensajes y confirmaciones al cliente"] },
+      { "title": "Formación del equipo", "subtitle": "Día 5", "description": "Formamos a tu personal para que domine la plataforma desde el primer servicio, sin estrés.", "items": ["Manejo de la toma de pedidos y la caja", "Gestión diaria de stock y recepciones", "Seguimiento de pedidos en línea y entregas", "Lectura de paneles e informes", "Buenas prácticas y resolución de casos frecuentes"] },
+      { "title": "Validación y pruebas", "subtitle": "Día 6", "description": "Probamos todo el recorrido en condiciones reales para garantizar un lanzamiento sin contratiempos.", "items": ["Pruebas de pedido de principio a fin, pago incluido", "Verificación de los flujos multisucursal", "Control de stock, alertas y reabastecimientos", "Validación de accesos y permisos del equipo", "Últimos ajustes antes de la puesta en marcha"] },
+      { "title": "Puesta en marcha", "subtitle": "Día 7", "description": "Tu plataforma está activa. Recibes tus primeros pedidos mientras seguimos a tu lado.", "items": ["Activación de tu sitio de pedidos en línea", "Acompañamiento en directo durante el primer servicio", "Supervisión del rendimiento y correcciones rápidas", "Punto de seguimiento posterior al lanzamiento", "Soporte continuo y evoluciones futuras"] }
+    ]
+  },
+  "whyPage": {
+    "hero": {
+      "eyebrow": "Por qué SmartResto",
+      "title": "Por qué los restaurantes eligen SmartResto",
+      "subtitlePre": "Una sola plataforma para centralizar tus",
+      "cycleWords": ["pedidos", "stock", "proveedores", "compras", "operaciones", "sucursales"],
+      "subtitlePost": "y tus operaciones.",
+      "ctaPrimary": "Solicitar una demo",
+      "ctaSecondary": "Ver soluciones"
+    },
+    "tools": {
+      "eyebrow": "La realidad",
+      "title": "Los restaurantes usan demasiadas herramientas diferentes",
+      "subtitle": "Cada herramienta vive por su lado — y ahí empiezan los problemas.",
+      "items": [
+        { "title": "Excel", "description": "Inventarios y costes en hojas de cálculo que quedan obsoletas rápido." },
+        { "title": "Papel", "description": "Pedidos y notas a mano, fáciles de perder." },
+        { "title": "WhatsApp", "description": "Pedidos a proveedores dispersos en los mensajes." },
+        { "title": "Plataformas de entrega", "description": "Pedidos en línea aislados y con comisión." },
+        { "title": "Herramientas contables separadas", "description": "Una contabilidad desconectada del terreno." }
+      ],
+      "consequencesLabel": "Los sistemas desconectados provocan:",
+      "consequences": ["Pérdida de tiempo", "Errores de captura", "Falta de visibilidad", "Duplicación del trabajo"]
+    },
+    "ecosystem": {
+      "eyebrow": "La solución",
+      "title": "Todo centralizado en una sola plataforma",
+      "subtitle": "La información circula entre los módulos: un pedido actualiza el stock, que alimenta las compras y la contabilidad.",
+      "hub": "SmartResto",
+      "hubSub": "Plataforma",
+      "modules": ["Pedidos", "Inventario", "Proveedores", "Compras", "Contabilidad", "Sucursales"]
+    },
+    "comparison": {
+      "eyebrow": "Comparativa",
+      "title": "Una mejor alternativa a las soluciones fragmentadas",
+      "subtitle": "Lo que obtienes con SmartResto, frente a las hojas de cálculo y las herramientas separadas.",
+      "feature": "Funcionalidad",
+      "separateTools": "Herramientas separadas",
+      "rows": ["Pedidos en línea", "Gestión de inventario", "Proveedores", "Compras", "Contabilidad", "Multisucursal", "Centralización", "Soporte"],
+      "legendIncluded": "Incluido",
+      "legendPartial": "Parcial / manual",
+      "legendNo": "No cubierto"
+    },
+    "operations": {
+      "eyebrow": "Credibilidad",
+      "title": "Pensado para operaciones reales",
+      "subtitle": "SmartResto se construyó en torno a los flujos reales de un restaurante — y ya funciona en producción en Maison Burger.",
+      "items": [
+        { "title": "Necesidades reales", "description": "Creado a partir de los problemas concretos de los restauranteros, no de una lista de funciones." },
+        { "title": "Pensado para el terreno", "description": "Los flujos siguen la realidad de un servicio: pedido, preparación, stock, reabastecimiento." },
+        { "title": "Operación diaria", "description": "Pensado para usarse cada día por los equipos, de forma simple, sin formación pesada." },
+        { "title": "Mejora continua", "description": "La plataforma evoluciona al ritmo de los comentarios del terreno y las necesidades que surgen." }
+      ]
+    },
+    "types": {
+      "eyebrow": "¿Para quién?",
+      "title": "¿Para qué restaurantes?",
+      "subtitle": "Del mostrador de servicio rápido a la franquicia multisucursal, SmartResto se adapta a tu tipo de establecimiento.",
+      "items": [
+        { "title": "Burger", "description": "Servicio rápido, grandes volúmenes de pedidos." },
+        { "title": "Pizza", "description": "En local, para llevar y a domicilio." },
+        { "title": "Sushi", "description": "Menús precisos y gestión fina del stock." },
+        { "title": "Café", "description": "Rotación rápida y compras recurrentes." },
+        { "title": "Restaurante tradicional", "description": "Carta amplia y múltiples proveedores." },
+        { "title": "Multisucursal", "description": "Varios establecimientos que gestionar." },
+        { "title": "Franquicia", "description": "Coherencia y control a gran escala." }
+      ]
+    },
+    "benefits": {
+      "eyebrow": "Lo que ganas",
+      "title": "Resultados concretos, no una lista de funciones",
+      "subtitle": "El objetivo no es añadir una herramienta más, sino mejorar cómo funciona tu restaurante.",
+      "items": [
+        { "title": "Ahorro de tiempo", "description": "Menos doble captura e idas y venidas entre herramientas: tus equipos se centran en el servicio." },
+        { "title": "Menos errores", "description": "Datos capturados una sola vez, compartidos en todas partes — se acabaron las diferencias entre sistemas." },
+        { "title": "Control de costes", "description": "Compras, stock y márgenes en un solo lugar para decidir con conocimiento." },
+        { "title": "Mejor visibilidad", "description": "Una vista clara de tus operaciones, en tiempo real y en cada sucursal." },
+        { "title": "Centralización", "description": "Pedidos, inventario, proveedores y contabilidad reunidos en una sola plataforma." },
+        { "title": "Acompañamiento personalizado", "description": "Un equipo que configura la plataforma y te sigue, desde el lanzamiento hasta el día a día." }
+      ]
+    },
+    "maisonBurger": {
+      "badge": "Ya utilizado en producción",
+      "title": "Maison Burger lo gestiona todo con SmartResto",
+      "description": "Nuestro primer cliente en producción usa toda la plataforma a diario, en varias sucursales.",
+      "cta": "Descubrir el caso de éxito",
+      "modules": ["Pedidos en línea", "Inventario", "Proveedores", "Compras", "Contabilidad", "Multisucursal"]
+    },
+    "finalCta": {
+      "title": "¿Listo para modernizar las operaciones de tu restaurante?",
+      "subtitle": "Descubre cómo SmartResto puede adaptarse a tu establecimiento.",
+      "primary": "Solicitar una demo",
+      "secondary": "Contáctanos"
+    }
+  },
+  "caseStudy": {
+    "hero": {
+      "badgeClient": "Cliente SmartResto",
+      "badgeProduction": "En producción",
+      "badgeMultiBranch": "Multisucursal",
+      "title": "Cómo Maison Burger centralizó sus pedidos y operaciones",
+      "subtitle": "Maison Burger usa SmartResto para gestionar sus pedidos en línea, su inventario, sus proveedores, sus compras y sus operaciones multisucursal desde una sola plataforma.",
+      "cta": "Solicitar una demo"
+    },
+    "about": {
+      "eyebrow": "El cliente",
+      "title": "Sobre Maison Burger",
+      "paragraph": "Maison Burger es un restaurante especializado en hamburguesas, con varias sucursales. En plena expansión, la marca necesitaba reunir sus pedidos, su stock y sus operaciones en una sola herramienta — y digitalizar un día a día aún muy manual.",
+      "points": ["Restaurante especializado en hamburguesas", "Varias sucursales en activo", "Una clara necesidad de centralizar las operaciones", "Voluntad de digitalizar el día a día"]
+    },
+    "challenges": {
+      "eyebrow": "Antes de SmartResto",
+      "title": "Los desafíos encontrados",
+      "subtitle": "Un crecimiento frenado por herramientas dispersas y procesos manuales.",
+      "items": [
+        { "title": "Gestión de pedidos", "description": "Pedidos dispersos entre el teléfono, los marketplaces y el mostrador, sin una vista unificada." },
+        { "title": "Seguimiento del stock", "description": "Un inventario gestionado en hojas de cálculo, difícil de mantener al día entre sucursales." },
+        { "title": "Gestión de proveedores", "description": "Proveedores y órdenes de compra gestionados a mano, fuente de errores y olvidos." },
+        { "title": "Control de compras", "description": "Poca visibilidad de los costes reales de compra y su impacto en los márgenes." },
+        { "title": "Multisucursal", "description": "Sin una vista consolidada de las operaciones en todos los establecimientos." }
+      ]
+    },
+    "solution1": {
+      "eyebrow": "Solución 1 — Pedidos en línea",
+      "title": "Una experiencia de pedido moderna y responsive",
+      "subtitle": "Un sitio de pedidos rápido y sin comisión, optimizado para móviles, desde el menú hasta el pago.",
+      "screens": ["Página de inicio", "Menú", "Carrito"],
+      "features": ["Entrega a domicilio", "Recogida", "Pago en línea seguro", "Gestión del menú", "Experiencia responsive móvil", "Gestión de pedidos"]
+    },
+    "solution2": {
+      "eyebrow": "Solución 2 — Gestión operativa",
+      "title": "Una única plataforma para las operaciones",
+      "subtitle": "Inventario, proveedores, compras, contabilidad y sucursales reunidos en un solo lugar.",
+      "screens": ["Panel", "Inventario", "Proveedores", "Compras", "Contabilidad", "Sucursales"],
+      "features": ["Inventario centralizado", "Gestión de proveedores", "Gestión de compras", "Contabilidad integrada", "Historial completo", "Gestión multisucursal"]
+    },
+    "ecosystem": {
+      "eyebrow": "El ecosistema",
+      "title": "Una sola plataforma, todos los módulos conectados",
+      "subtitle": "Cada módulo se comunica con los demás en torno a un núcleo único: SmartResto.",
+      "hub": "SmartResto",
+      "hubSub": "Plataforma",
+      "modules": ["Pedidos", "Inventario", "Proveedores", "Compras", "Contabilidad", "Sucursales"]
+    },
+    "results": {
+      "eyebrow": "Resultado",
+      "title": "Una plataforma centralizada para el día a día",
+      "subtitle": "Maison Burger dispone ahora de una sola plataforma para gestionar sus operaciones diarias desde una única interfaz.",
+      "items": [
+        { "title": "Pedidos centralizados", "description": "Todos los pedidos, en línea y en local, reunidos en un solo lugar." },
+        { "title": "Inventario unificado", "description": "Stock en tiempo real, coherente en todas las sucursales." },
+        { "title": "Proveedores gestionados", "description": "Proveedores, compras y facturas centralizados y trazables." },
+        { "title": "Sucursales conectadas", "description": "Una vista consolidada para gestionar cada establecimiento." }
+      ]
+    },
+    "future": {
+      "eyebrow": "Y mañana",
+      "title": "Una plataforma en constante evolución",
+      "description": "SmartResto evoluciona continuamente según las necesidades reales de Maison Burger. Se añaden y optimizan funciones con regularidad para acompañar el crecimiento de la marca."
+    },
+    "testimonial": {
+      "quote": "«Un trabajo de gran calidad, con un mantenimiento garantizado 24/7 — fines de semana incluidos. Nos sentimos realmente acompañados cada día.»",
+      "name": "Amine El Ridaoui",
+      "role": "Fundador y CEO, Maison Burger"
+    },
+    "finalCta": {
+      "title": "¿Quieres las mismas ventajas para tu restaurante?",
+      "subtitle": "Reserva una demo o habla con nuestro equipo — te mostramos cómo centralizar tus operaciones.",
+      "primary": "Solicitar una demo",
+      "secondary": "Contáctanos"
+    },
+    "yumi": {
+      "badgeClient": "Cliente SmartResto",
+      "badgeOrdering": "Pedidos en línea",
+      "heroTitle": "Cómo Yumiburger lanzó sus pedidos en línea",
+      "heroSubtitle": "Yumiburger usa la solución de pedidos en línea de SmartResto para vender directamente a sus clientes — rápido y sin comisión.",
+      "cta": "Solicitar una demo",
+      "aboutEyebrow": "El cliente",
+      "aboutTitle": "Sobre Yumiburger",
+      "aboutParagraph": "Yumiburger es una marca de hamburguesas en plena expansión. Para acompañar su crecimiento, quería ofrecer pedidos en línea rápidos, a su imagen, y mantener el control de sus ventas — sin comisiones de plataformas externas.",
+      "aboutPoints": ["Marca de hamburguesas en expansión", "Presencia en varios puntos de venta", "Voluntad de vender en línea, sin comisión", "Una experiencia de pedido moderna y móvil"],
+      "solutionEyebrow": "Solución — Pedidos en línea",
+      "solutionTitle": "Una experiencia de pedido moderna y responsive",
+      "solutionSubtitle": "Un sitio de pedidos rápido y sin comisión, optimizado para móviles, desde el menú hasta el pago.",
+      "screens": ["Página de inicio", "Menú", "Sucursales"],
+      "features": ["Entrega a domicilio", "Recogida", "Pago en línea seguro", "Gestión del menú", "Experiencia responsive móvil", "Gestión de pedidos"]
+    }
+  }
+}

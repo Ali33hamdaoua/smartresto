@@ -1,0 +1,409 @@
+{
+  "language": "Langue",
+  "nav": {
+    "solutions": "Solutions",
+    "why": "Pourquoi SmartResto",
+    "caseStudies": "Étude de cas",
+    "deployment": "Déploiement",
+    "demo": "Demander une démo",
+    "solutionsMenu": {
+      "title": "Nos solutions",
+      "onlineOrdering": "Commande en ligne",
+      "onlineOrderingDesc": "Vendez en ligne, sans commission",
+      "inventory": "Gestion de stock",
+      "inventoryDesc": "Inventaire, achats et multi-succursales"
+    }
+  },
+  "footer": {
+    "tagline": "SmartResto outille les restaurants : commande en ligne sans commission et gestion complète des stocks, fournisseurs, achats et comptabilité multi-succursales.",
+    "product": "Produit",
+    "company": "Entreprise",
+    "contact": "Contact",
+    "links": {
+      "onlineOrdering": "Commande en ligne",
+      "inventory": "Gestion de stock",
+      "pricing": "Tarifs",
+      "caseStudies": "Étude de cas",
+      "requestDemo": "Demander une démo"
+    },
+    "rights": "Tous droits réservés."
+  },
+  "hero": {
+    "badge": "Commandes en ligne + Gestion opérationnelle",
+    "titlePre": "Centralisez vos commandes, vos stocks et vos",
+    "flipWords": ["opérations", "fournisseurs", "achats", "succursales"],
+    "titlePost": "restaurant.",
+    "subtitle": "SmartResto aide les restaurants à vendre en ligne, gérer leurs inventaires, suivre leurs achats, organiser leurs fournisseurs et piloter plusieurs succursales depuis une seule plateforme.",
+    "ctaPrimary": "Demander une démo",
+    "ctaSecondary": "Voir les solutions",
+    "trust": "Solution déjà utilisée en production par",
+    "cards": [
+      { "title": "Sans commission", "desc": "Vendez sans commission", "tag": "Commande en ligne" },
+      { "title": "Stocks maîtrisés", "desc": "Inventaire en temps réel", "tag": "Gestion de stock" },
+      { "title": "Tout centralisé", "desc": "Toutes vos succursales", "tag": "Multi-succursales" }
+    ]
+  },
+  "home": {
+    "showcase": {
+      "eyebrow": "La plateforme",
+      "title": "Pilotez votre restaurant depuis une seule plateforme",
+      "subtitle": "Commandes en ligne, inventaire, achats, fournisseurs, comptabilité et gestion multi-succursales réunis dans une seule solution."
+    },
+    "problem": {
+      "eyebrow": "Le constat",
+      "title": "Gérer un restaurant ne devrait pas être aussi compliqué",
+      "subtitle": "Les restaurateurs jonglent avec trop d'outils — et trop de commissions.",
+      "items": [
+        { "title": "Des commissions qui rongent vos marges", "description": "Les places de marché prélèvent un pourcentage sur chaque commande, jusqu'à effacer votre profit." },
+        { "title": "Des outils dispersés", "description": "Caisse, inventaire, fournisseurs et comptabilité vivent dans des systèmes qui ne se parlent pas." },
+        { "title": "Aucune vision globale", "description": "Difficile de suivre vos coûts réels et la performance de chaque succursale au quotidien." }
+      ]
+    },
+    "solutions": {
+      "eyebrow": "Nos solutions",
+      "title": "Deux produits qui travaillent ensemble",
+      "subtitle": "Adoptez l'un, l'autre, ou les deux — selon les besoins de votre restaurant.",
+      "learnMore": "En savoir plus",
+      "items": [
+        { "name": "Commande en ligne", "tagline": "Votre restaurant, ouvert 24h/24", "description": "Un site de commande en ligne rapide et sans commission, conçu pour convertir vos visiteurs en clients fidèles.", "features": ["Menu digital entièrement personnalisable", "Commande sur place, à emporter et livraison", "Paiement en ligne sécurisé", "Aucune commission par commande"] },
+        { "name": "Gestion de stock", "tagline": "Maîtrisez vos coûts, succursale par succursale", "description": "Inventaire, fournisseurs, achats et comptabilité réunis dans une seule plateforme multi-succursales.", "features": ["Inventaire en temps réel", "Gestion des fournisseurs et des achats", "Comptabilité intégrée", "Vue consolidée multi-succursales"] }
+      ]
+    },
+    "caseStudyPreview": {
+      "badge": "Étude de cas",
+      "title": "Comment Maison Burger a repris le contrôle de ses opérations",
+      "description": "De la commande en ligne sans commission à la gestion de stock multi-succursales, Maison Burger s'appuie sur SmartResto pour servir plus vite et mieux maîtriser ses coûts.",
+      "cta": "Lire l'étude de cas",
+      "stats": [
+        { "value": "0 %", "label": "de commission par commande" },
+        { "value": "3", "label": "succursales pilotées en un endroit" },
+        { "value": "24/7", "label": "de commande en ligne" }
+      ]
+    },
+    "features": {
+      "eyebrow": "Fonctionnalités",
+      "title": "Tout ce qu'il faut pour piloter votre restaurant",
+      "subtitle": "De la première commande en ligne jusqu'à la comptabilité multi-succursales.",
+      "items": [
+        { "title": "Commande en ligne", "description": "Site de commande rapide, sans commission, prêt pour la livraison et l'emporter." },
+        { "title": "Gestion d'inventaire", "description": "Suivez vos stocks en temps réel et évitez les ruptures coûteuses." },
+        { "title": "Achats & fournisseurs", "description": "Centralisez vos commandes fournisseurs et vos factures en un seul endroit." },
+        { "title": "Multi-succursales", "description": "Pilotez plusieurs établissements depuis un tableau de bord unique." },
+        { "title": "Comptabilité", "description": "Suivez vos marges et votre rentabilité sans tableur ni saisie manuelle." },
+        { "title": "Fiable & sécurisé", "description": "Une infrastructure fiable et sécurisée, pensée pour la restauration." }
+      ]
+    },
+    "why": {
+      "eyebrow": "Pourquoi SmartResto",
+      "title": "Conçu par et pour des restaurateurs",
+      "subtitle": "Une plateforme qui défend vos marges et simplifie votre quotidien.",
+      "items": [
+        { "title": "Deux solutions, une vision", "description": "Commande en ligne et gestion des opérations travaillent ensemble, sans outils dispersés." },
+        { "title": "Sans commission", "description": "Vous gardez vos marges : pas de pourcentage prélevé sur chaque commande." },
+        { "title": "Pensé pour la restauration", "description": "Conçu autour des vrais flux d'un restaurant, pas d'une logique générique." },
+        { "title": "Accompagnement réel", "description": "Une équipe qui connaît la restauration vous configure et vous soutient." }
+      ]
+    },
+    "cta": {
+      "title": "Prêt à moderniser votre restaurant ?",
+      "subtitle": "Réservez une démo gratuite et découvrez comment SmartResto peut vous faire gagner du temps et protéger vos marges.",
+      "primary": "Demander une démo",
+      "secondary": "Nous contacter"
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Questions fréquentes",
+      "support": "Vous ne trouvez pas votre réponse ? Contactez notre",
+      "supportLink": "équipe support",
+      "items": [
+        { "question": "Qu'est-ce que SmartResto ?", "answer": "SmartResto réunit deux solutions éprouvées : un site de commande en ligne et une plateforme de gestion de stock, fournisseurs, achats et comptabilité pour les restaurants." },
+        { "question": "Faut-il adopter les deux solutions ?", "answer": "Non. Chaque solution fonctionne indépendamment. Vous pouvez commencer par l'une et ajouter l'autre lorsque vous êtes prêt." },
+        { "question": "Y a-t-il une commission sur les commandes ?", "answer": "Non. Contrairement aux places de marché, la commande en ligne SmartResto ne prélève aucune commission par commande." },
+        { "question": "SmartResto gère-t-il plusieurs succursales ?", "answer": "Oui. La plateforme de gestion offre une vue consolidée ainsi qu'un suivi détaillé par établissement." },
+        { "question": "Comment démarrer ?", "answer": "Demandez une démo gratuite. Notre équipe configure votre environnement et vous accompagne à chaque étape." }
+      ]
+    }
+  },
+  "form": {
+    "name": "Nom complet",
+    "restaurant": "Restaurant",
+    "email": "Courriel",
+    "phone": "Téléphone",
+    "message": "Message",
+    "needs": "Vos besoins (optionnel)",
+    "placeholders": {
+      "name": "Jean Tremblay",
+      "restaurant": "Maison Burger",
+      "email": "jean@restaurant.ca",
+      "phone": "514 555-0199",
+      "messageContact": "Comment pouvons-nous vous aider ?",
+      "messageDemo": "Parlez-nous de votre restaurant et de vos objectifs…"
+    },
+    "submitContact": "Envoyer le message",
+    "submitDemo": "Réserver ma démo",
+    "sending": "Envoi…",
+    "successTitle": "Merci !",
+    "successText": "Votre demande a bien été envoyée. Notre équipe vous recontacte rapidement."
+  },
+  "solutionsPage": {
+    "eyebrow": "Nos solutions",
+    "title": "Deux produits, une plateforme pour votre restaurant",
+    "description": "Adoptez la commande en ligne, la gestion de stock, ou les deux — selon vos besoins."
+  },
+  "solutionDetail": {
+    "eyebrow": "Solution",
+    "whatsIncluded": "Ce qui est inclus",
+    "requestDemo": "Demander une démo",
+    "viewOnline": "Voir en ligne"
+  },
+  "pricing": {
+    "eyebrow": "Tarifs",
+    "title": "Un forfait pour chaque restaurant",
+    "description": "Une tarification simple et sans commission. Contactez-nous pour un devis adapté à votre établissement.",
+    "popular": "Le plus populaire",
+    "plans": [
+      { "name": "Commande en ligne", "price": "Sur devis", "description": "Pour les restaurants qui veulent vendre en ligne sans commission.", "features": ["Site de commande personnalisé", "Sur place, à emporter et livraison", "Paiement en ligne sécurisé", "Aucune commission par commande"], "cta": "Demander une démo" },
+      { "name": "Suite complète", "price": "Sur devis", "description": "Commande en ligne + gestion de stock multi-succursales.", "features": ["Tout de la commande en ligne", "Inventaire en temps réel", "Fournisseurs, achats et comptabilité", "Vue consolidée multi-succursales", "Accompagnement prioritaire"], "cta": "Demander une démo" },
+      { "name": "Gestion de stock", "price": "Sur devis", "description": "Pour piloter inventaire, achats et comptabilité.", "features": ["Inventaire en temps réel", "Gestion des fournisseurs et achats", "Comptabilité intégrée", "Vue multi-succursales"], "cta": "Demander une démo" }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Parlons de votre restaurant",
+    "description": "Notre équipe vous répond rapidement.",
+    "joinTitle": "Nous joindre",
+    "joinText": "Remplissez le formulaire et nous reviendrons vers vous sous peu. Vous pouvez aussi nous écrire directement."
+  },
+  "demo": {
+    "eyebrow": "Démo",
+    "title": "Voyez SmartResto en action",
+    "description": "Réservez une démo gratuite et personnalisée avec notre équipe.",
+    "benefitsTitle": "Ce que vous obtenez",
+    "benefits": ["Une démonstration adaptée à votre restaurant", "Des réponses à toutes vos questions", "Aucun engagement, sans carte de crédit"]
+  },
+  "notFound": {
+    "code": "Erreur 404",
+    "title": "Page introuvable",
+    "description": "Désolé, la page que vous cherchez n'existe pas ou a été déplacée.",
+    "home": "Retour à l'accueil"
+  },
+  "caseStudiesIndex": {
+    "eyebrow": "Études de cas",
+    "title": "Ils utilisent SmartResto en production",
+    "description": "Découvrez comment des restaurants pilotent leurs opérations avec SmartResto.",
+    "read": "Lire l'étude de cas",
+    "studies": [
+      { "name": "Maison Burger", "tags": ["Commande en ligne", "Gestion opérationnelle"], "description": "Toutes les opérations centralisées : commandes, inventaire, fournisseurs, achats, comptabilité et multi-succursales." },
+      { "name": "Yumiburger", "tags": ["Commande en ligne"], "description": "Une commande en ligne moderne et sans commission, pour vendre en direct à ses clients." }
+    ]
+  },
+  "deployment": {
+    "header": {
+      "eyebrow": "Déploiement",
+      "title": "Votre restaurant opérationnel en 7 jours",
+      "description": "Nous configurons votre plateforme, importons vos données et accompagnons votre équipe jusqu'à la mise en production."
+    },
+    "cta": {
+      "title": "Prêt à lancer votre plateforme ?",
+      "subtitle": "Réservez une démo et découvrez comment SmartResto met votre restaurant en production en une semaine.",
+      "button": "Demander une démo"
+    },
+    "steps": [
+      { "title": "Analyse de vos besoins", "subtitle": "Jour 1", "description": "Nous prenons le temps de comprendre votre restaurant, vos menus, vos flux de commandes et vos objectifs avant toute configuration.", "items": ["Audit de votre fonctionnement actuel (salle, à emporter, livraison)", "Cartographie de vos menus et catégories de produits", "Identification de vos fournisseurs et habitudes d'achat", "Définition des accès et des rôles de votre équipe", "Objectifs de mise en production et indicateurs de succès"] },
+      { "title": "Configuration de la plateforme", "subtitle": "Jour 2", "description": "Nous paramétrons SmartResto selon vos besoins : commande en ligne, gestion de stock et règles propres à votre établissement.", "items": ["Création de votre espace et de vos succursales", "Paramétrage des modes de commande et des zones de livraison", "Configuration des taxes, des paiements et des reçus", "Mise en place des règles de stock et de réapprovisionnement", "Réglage des notifications et des automatisations"] },
+      { "title": "Importation des données", "subtitle": "Jour 3", "description": "Nous importons vos données existantes pour que vous démarriez avec un système déjà rempli et prêt à l'emploi.", "items": ["Import de votre menu complet et de vos prix", "Intégration de votre catalogue de produits et d'ingrédients", "Reprise de vos fournisseurs et de vos fiches d'achat", "Chargement de votre inventaire initial", "Vérification de la cohérence des données importées"] },
+      { "title": "Personnalisation de votre restaurant", "subtitle": "Jour 4", "description": "Nous adaptons l'apparence et l'expérience à votre image de marque, pour un site de commande qui vous ressemble.", "items": ["Application de votre logo, de vos couleurs et de votre identité visuelle", "Mise en page de votre vitrine de commande en ligne", "Photos et descriptions de vos plats phares", "Configuration des promotions et des menus spéciaux", "Personnalisation des messages et des confirmations client"] },
+      { "title": "Formation de l'équipe", "subtitle": "Jour 5", "description": "Nous formons votre personnel pour qu'il maîtrise la plateforme dès le premier service, sans stress.", "items": ["Prise en main de la prise de commande et de la caisse", "Gestion quotidienne des stocks et des réceptions", "Suivi des commandes en ligne et de la livraison", "Lecture des tableaux de bord et des rapports", "Bonnes pratiques et résolution des cas fréquents"] },
+      { "title": "Validation et tests", "subtitle": "Jour 6", "description": "Nous testons l'ensemble du parcours en conditions réelles pour garantir un lancement sans accroc.", "items": ["Tests de commande de bout en bout, paiement inclus", "Vérification des flux multi-succursales", "Contrôle des stocks, des alertes et des réapprovisionnements", "Validation des accès et des permissions de l'équipe", "Derniers ajustements avant la mise en production"] },
+      { "title": "Mise en production", "subtitle": "Jour 7", "description": "Votre plateforme est lancée. Vous prenez vos premières commandes pendant que nous restons à vos côtés.", "items": ["Activation de votre site de commande en ligne", "Accompagnement en direct lors du premier service", "Surveillance des performances et corrections rapides", "Point de suivi post-lancement", "Support continu et évolutions futures"] }
+    ]
+  },
+  "whyPage": {
+    "hero": {
+      "eyebrow": "Pourquoi SmartResto",
+      "title": "Pourquoi les restaurants choisissent SmartResto",
+      "subtitlePre": "Une seule plateforme pour centraliser vos",
+      "cycleWords": ["commandes", "stocks", "fournisseurs", "achats", "opérations", "succursales"],
+      "subtitlePost": "et vos opérations.",
+      "ctaPrimary": "Demander une démo",
+      "ctaSecondary": "Voir les solutions"
+    },
+    "tools": {
+      "eyebrow": "Le constat",
+      "title": "Les restaurants utilisent trop d'outils différents",
+      "subtitle": "Chaque outil vit dans son coin — et c'est là que les problèmes commencent.",
+      "items": [
+        { "title": "Excel", "description": "Inventaires et coûts sur des tableurs vite dépassés." },
+        { "title": "Papier", "description": "Commandes et notes manuscrites, faciles à perdre." },
+        { "title": "WhatsApp", "description": "Commandes fournisseurs dispersées dans les messages." },
+        { "title": "Plateformes de livraison", "description": "Des commandes en ligne isolées et commissionnées." },
+        { "title": "Outils comptables séparés", "description": "Une comptabilité déconnectée du terrain." }
+      ],
+      "consequencesLabel": "Des systèmes déconnectés entraînent :",
+      "consequences": ["Perte de temps", "Erreurs de saisie", "Manque de visibilité", "Duplication du travail"]
+    },
+    "ecosystem": {
+      "eyebrow": "La solution",
+      "title": "Tout centralisé dans une seule plateforme",
+      "subtitle": "L'information circule entre les modules : une commande met à jour le stock, qui alimente les achats et la comptabilité.",
+      "hub": "SmartResto",
+      "hubSub": "Plateforme",
+      "modules": ["Commandes", "Inventaire", "Fournisseurs", "Achats", "Comptabilité", "Succursales"]
+    },
+    "comparison": {
+      "eyebrow": "Comparatif",
+      "title": "Une meilleure alternative aux solutions fragmentées",
+      "subtitle": "Ce que vous obtenez avec SmartResto, par rapport aux tableurs et aux outils séparés.",
+      "feature": "Fonctionnalité",
+      "separateTools": "Outils séparés",
+      "rows": ["Commandes en ligne", "Gestion inventaire", "Fournisseurs", "Achats", "Comptabilité", "Multi-succursales", "Centralisation", "Support"],
+      "legendIncluded": "Inclus",
+      "legendPartial": "Partiel / manuel",
+      "legendNo": "Non couvert"
+    },
+    "operations": {
+      "eyebrow": "Crédibilité",
+      "title": "Pensé pour les opérations réelles",
+      "subtitle": "SmartResto a été construit autour des vrais flux de travail d'un restaurant — et il tourne déjà en production chez Maison Burger.",
+      "items": [
+        { "title": "Des besoins réels", "description": "Conçu à partir des problèmes concrets rencontrés par les restaurateurs, pas d'une liste de fonctionnalités." },
+        { "title": "Pensé pour le terrain", "description": "Les flux suivent la réalité d'un service : commande, préparation, stock, réapprovisionnement." },
+        { "title": "Exploitation quotidienne", "description": "Pensé pour être utilisé chaque jour par les équipes, simplement, sans formation lourde." },
+        { "title": "Amélioration continue", "description": "La plateforme évolue au rythme des retours du terrain et des besoins qui émergent." }
+      ]
+    },
+    "types": {
+      "eyebrow": "Pour qui ?",
+      "title": "Pour quels restaurants ?",
+      "subtitle": "Du comptoir rapide à la franchise multi-succursales, SmartResto s'adapte à votre type d'établissement.",
+      "items": [
+        { "title": "Burger", "description": "Service rapide, gros volumes de commandes." },
+        { "title": "Pizza", "description": "Sur place, à emporter et livraison." },
+        { "title": "Sushi", "description": "Menus précis et gestion fine des stocks." },
+        { "title": "Café", "description": "Rotation rapide et achats récurrents." },
+        { "title": "Restaurant traditionnel", "description": "Carte riche et fournisseurs multiples." },
+        { "title": "Multi-succursales", "description": "Plusieurs établissements à piloter." },
+        { "title": "Franchise", "description": "Cohérence et contrôle à grande échelle." }
+      ]
+    },
+    "benefits": {
+      "eyebrow": "Ce que vous gagnez",
+      "title": "Des résultats concrets, pas une liste de fonctions",
+      "subtitle": "L'objectif n'est pas d'ajouter un outil de plus, mais d'améliorer la façon dont votre restaurant fonctionne.",
+      "items": [
+        { "title": "Gain de temps", "description": "Moins de double saisie et de va-et-vient entre outils : vos équipes se concentrent sur le service." },
+        { "title": "Réduction des erreurs", "description": "Des données saisies une seule fois, partagées partout — fini les écarts entre vos systèmes." },
+        { "title": "Contrôle des coûts", "description": "Achats, stocks et marges suivis au même endroit pour décider en connaissance de cause." },
+        { "title": "Meilleure visibilité", "description": "Une vue claire sur vos opérations, en temps réel et sur chaque succursale." },
+        { "title": "Centralisation", "description": "Commandes, inventaire, fournisseurs et comptabilité réunis dans une seule plateforme." },
+        { "title": "Accompagnement personnalisé", "description": "Une équipe qui configure la plateforme et vous suit, du démarrage au quotidien." }
+      ]
+    },
+    "maisonBurger": {
+      "badge": "Déjà utilisé en production",
+      "title": "Maison Burger pilote tout avec SmartResto",
+      "description": "Notre premier client en production utilise l'ensemble de la plateforme au quotidien, sur plusieurs succursales.",
+      "cta": "Découvrir l'étude de cas",
+      "modules": ["Commande en ligne", "Inventaire", "Fournisseurs", "Achats", "Comptabilité", "Multi-succursales"]
+    },
+    "finalCta": {
+      "title": "Prêt à moderniser les opérations de votre restaurant ?",
+      "subtitle": "Découvrez comment SmartResto peut s'adapter à votre établissement.",
+      "primary": "Demander une démo",
+      "secondary": "Nous contacter"
+    }
+  },
+  "caseStudy": {
+    "hero": {
+      "badgeClient": "Client SmartResto",
+      "badgeProduction": "En production",
+      "badgeMultiBranch": "Multi-succursales",
+      "title": "Comment Maison Burger a centralisé ses commandes et ses opérations",
+      "subtitle": "Maison Burger utilise SmartResto pour gérer ses commandes en ligne, son inventaire, ses fournisseurs, ses achats et ses opérations multi-succursales depuis une seule plateforme.",
+      "cta": "Demander une démo"
+    },
+    "about": {
+      "eyebrow": "Le client",
+      "title": "À propos de Maison Burger",
+      "paragraph": "Maison Burger est un restaurant spécialisé dans les burgers, présent sur plusieurs succursales. En forte croissance, l'enseigne avait besoin de réunir ses commandes, ses stocks et ses opérations dans un seul outil — et de digitaliser un quotidien encore largement géré à la main.",
+      "points": ["Restaurant spécialisé dans les burgers", "Plusieurs succursales en activité", "Un besoin clair de centralisation des opérations", "Une volonté de digitaliser le quotidien"]
+    },
+    "challenges": {
+      "eyebrow": "Avant SmartResto",
+      "title": "Les défis rencontrés",
+      "subtitle": "Une croissance freinée par des outils dispersés et des processus manuels.",
+      "items": [
+        { "title": "Gestion des commandes", "description": "Des commandes éparpillées entre le téléphone, les places de marché et le comptoir, sans vue unifiée." },
+        { "title": "Suivi des stocks", "description": "Un inventaire géré sur tableurs, difficile à tenir à jour d'une succursale à l'autre." },
+        { "title": "Gestion fournisseurs", "description": "Des fournisseurs et des commandes d'achat suivis manuellement, source d'erreurs et d'oublis." },
+        { "title": "Contrôle des achats", "description": "Peu de visibilité sur les coûts d'achat réels et leur impact sur les marges." },
+        { "title": "Multi-succursales", "description": "Aucune vision consolidée des opérations sur l'ensemble des établissements." }
+      ]
+    },
+    "solution1": {
+      "eyebrow": "Solution 1 — Commandes en ligne",
+      "title": "Une expérience de commande moderne et responsive",
+      "subtitle": "Un site de commande rapide et sans commission, optimisé pour les mobiles, de la découverte du menu jusqu'au paiement.",
+      "screens": ["Page d'accueil", "Menu", "Panier"],
+      "features": ["Livraison", "Ramassage", "Paiement en ligne sécurisé", "Gestion du menu", "Expérience responsive mobile", "Gestion des commandes"]
+    },
+    "solution2": {
+      "eyebrow": "Solution 2 — Gestion opérationnelle",
+      "title": "Une plateforme unique pour les opérations",
+      "subtitle": "Inventaire, fournisseurs, achats, comptabilité et succursales réunis au même endroit.",
+      "screens": ["Tableau de bord", "Inventaire", "Fournisseurs", "Achats", "Comptabilité", "Succursales"],
+      "features": ["Inventaire centralisé", "Gestion des fournisseurs", "Gestion des achats", "Comptabilité intégrée", "Historique complet", "Gestion multi-succursales"]
+    },
+    "ecosystem": {
+      "eyebrow": "L'écosystème",
+      "title": "Une seule plateforme, tous les modules connectés",
+      "subtitle": "Chaque module communique avec les autres autour d'un cœur unique : SmartResto.",
+      "hub": "SmartResto",
+      "hubSub": "Plateforme",
+      "modules": ["Commandes", "Inventaire", "Fournisseurs", "Achats", "Comptabilité", "Succursales"]
+    },
+    "results": {
+      "eyebrow": "Résultat",
+      "title": "Une plateforme centralisée pour le quotidien",
+      "subtitle": "Maison Burger dispose désormais d'une plateforme unique pour gérer ses opérations quotidiennes depuis une seule interface.",
+      "items": [
+        { "title": "Commandes centralisées", "description": "Toutes les commandes, en ligne et sur place, réunies au même endroit." },
+        { "title": "Inventaire unifié", "description": "Un stock suivi en temps réel, cohérent sur toutes les succursales." },
+        { "title": "Fournisseurs gérés", "description": "Fournisseurs, achats et factures centralisés et traçables." },
+        { "title": "Multi-succursales connectées", "description": "Une vue consolidée pour piloter chaque établissement." }
+      ]
+    },
+    "future": {
+      "eyebrow": "Et demain",
+      "title": "Une plateforme en constante évolution",
+      "description": "SmartResto évolue continuellement en fonction des besoins réels de Maison Burger. De nouvelles fonctionnalités sont régulièrement ajoutées et optimisées pour accompagner la croissance de l'enseigne."
+    },
+    "testimonial": {
+      "quote": "« Une très belle qualité de travail, avec une maintenance assurée 24 h/24 et 7 j/7 — week-ends compris. On se sent réellement accompagnés au quotidien. »",
+      "name": "Amine El Ridaoui",
+      "role": "Fondateur & CEO, Maison Burger"
+    },
+    "finalCta": {
+      "title": "Vous souhaitez obtenir les mêmes avantages pour votre restaurant ?",
+      "subtitle": "Réservez une démo ou parlez à notre équipe — nous vous montrons comment centraliser vos opérations.",
+      "primary": "Demander une démo",
+      "secondary": "Nous contacter"
+    },
+    "yumi": {
+      "badgeClient": "Client SmartResto",
+      "badgeOrdering": "Commande en ligne",
+      "heroTitle": "Comment Yumiburger a lancé sa commande en ligne",
+      "heroSubtitle": "Yumiburger utilise la solution de commande en ligne SmartResto pour vendre directement à ses clients — rapidement et sans commission.",
+      "cta": "Demander une démo",
+      "aboutEyebrow": "Le client",
+      "aboutTitle": "À propos de Yumiburger",
+      "aboutParagraph": "Yumiburger est une enseigne de burgers en pleine croissance. Pour accompagner son développement, elle souhaitait proposer une commande en ligne rapide, à son image, et garder la main sur ses ventes — sans commissions de plateformes tierces.",
+      "aboutPoints": ["Enseigne de burgers en pleine expansion", "Présence sur plusieurs points de vente", "Volonté de vendre en ligne, sans commission", "Une expérience de commande moderne et mobile"],
+      "solutionEyebrow": "Solution — Commande en ligne",
+      "solutionTitle": "Une expérience de commande moderne et responsive",
+      "solutionSubtitle": "Un site de commande rapide et sans commission, optimisé pour les mobiles, de la découverte du menu jusqu'au paiement.",
+      "screens": ["Page d'accueil", "Menu", "Succursales"],
+      "features": ["Livraison", "Ramassage", "Paiement en ligne sécurisé", "Gestion du menu", "Expérience responsive mobile", "Gestion des commandes"]
+    }
+  }
+}

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 import {
   Accordion,
   AccordionContent,
@@ -8,16 +9,18 @@ import {
 import { SectionHeading } from "@/components/shared/section-heading";
 import { Container } from "@/components/shared/container";
 import { Reveal } from "@/components/shared/reveal";
-import { FAQS } from "@/data/faqs";
 
 export function Faq() {
+  const t = useTranslations("home.faq");
+  const items = t.raw("items") as { question: string; answer: string }[];
+
   return (
     <section className="bg-muted/30 py-20 sm:py-28">
-      <SectionHeading eyebrow="FAQ" title="Questions fréquentes" />
+      <SectionHeading eyebrow={t("eyebrow")} title={t("title")} />
       <Container className="mt-12 max-w-3xl">
         <Reveal>
           <Accordion type="single" collapsible className="-mx-2 sm:mx-0">
-            {FAQS.map((faq, i) => (
+            {items.map((faq, i) => (
               <div className="group" key={i}>
                 <AccordionItem
                   value={`item-${i}`}
@@ -38,12 +41,12 @@ export function Faq() {
 
         <Reveal>
           <p className="mt-6 text-center text-muted-foreground">
-            Vous ne trouvez pas votre réponse ? Contactez notre{" "}
+            {t("support")}{" "}
             <Link
               href="/contact"
               className="font-medium text-primary hover:underline"
             >
-              équipe support
+              {t("supportLink")}
             </Link>
             .
           </p>

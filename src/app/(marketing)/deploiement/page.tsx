@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 import { buildMetadata } from "@/lib/seo";
 import { Button } from "@/components/ui/button";
 import { PageHeader } from "@/components/shared/page-header";
@@ -15,12 +16,14 @@ export const metadata: Metadata = buildMetadata({
 });
 
 export default function DeploiementPage() {
+  const t = useTranslations("deployment");
+
   return (
     <>
       <PageHeader
-        eyebrow="Déploiement"
-        title="Votre restaurant opérationnel en 7 jours"
-        description="Nous configurons votre plateforme, importons vos données et accompagnons votre équipe jusqu'à la mise en production."
+        eyebrow={t("header.eyebrow")}
+        title={t("header.title")}
+        description={t("header.description")}
       />
 
       <DeploymentJourney />
@@ -31,15 +34,14 @@ export default function DeploiementPage() {
           <Reveal>
             <div className="relative overflow-hidden rounded-3xl bg-primary px-6 py-16 text-center text-primary-foreground sm:px-16">
               <h2 className="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-balance sm:text-4xl">
-                Prêt à lancer votre plateforme ?
+                {t("cta.title")}
               </h2>
               <p className="mx-auto mt-4 max-w-xl text-primary-foreground/80">
-                Réservez une démo et découvrez comment SmartResto met votre
-                restaurant en production en une semaine.
+                {t("cta.subtitle")}
               </p>
               <div className="mt-8 flex justify-center">
                 <Button asChild size="lg" variant="secondary">
-                  <Link href="/demo">Demander une démo</Link>
+                  <Link href="/demo">{t("cta.button")}</Link>
                 </Button>
               </div>
             </div>

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 import { BadgeCheck, CircleDot, Building2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -7,6 +8,7 @@ import { Container } from "@/components/shared/container";
 import { Reveal } from "@/components/shared/reveal";
 
 export function CsHero() {
+  const t = useTranslations("caseStudy.hero");
   return (
     <section className="relative overflow-hidden border-b bg-muted/30 pb-20 pt-28 sm:pb-28 sm:pt-36">
       <div
@@ -18,31 +20,29 @@ export function CsHero() {
           <div className="mb-6 flex flex-wrap items-center justify-center gap-2">
             <Badge variant="secondary" className="gap-1.5">
               <BadgeCheck className="h-3.5 w-3.5 text-primary" />
-              Client SmartResto
+              {t("badgeClient")}
             </Badge>
             <Badge variant="secondary" className="gap-1.5">
               <CircleDot className="h-3.5 w-3.5 text-primary" />
-              En production
+              {t("badgeProduction")}
             </Badge>
             <Badge variant="secondary" className="gap-1.5">
               <Building2 className="h-3.5 w-3.5 text-primary" />
-              Multi-succursales
+              {t("badgeMultiBranch")}
             </Badge>
           </div>
 
           <h1 className="mx-auto max-w-4xl text-4xl font-bold tracking-tight text-balance sm:text-5xl">
-            Comment Maison Burger a centralisé ses commandes et ses opérations
+            {t("title")}
           </h1>
 
           <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground">
-            Maison Burger utilise SmartResto pour gérer ses commandes en ligne,
-            son inventaire, ses fournisseurs, ses achats et ses opérations
-            multi-succursales depuis une seule plateforme.
+            {t("subtitle")}
           </p>
 
           <div className="mt-8 flex justify-center">
             <Button asChild size="lg">
-              <Link href="/demo">Demander une démo</Link>
+              <Link href="/demo">{t("cta")}</Link>
             </Button>
           </div>
         </Reveal>
