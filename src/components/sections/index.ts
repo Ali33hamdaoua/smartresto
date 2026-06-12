@@ -1,0 +1,9 @@
+export { Hero } from "./hero";
+export { ProductShowcase } from "./product-showcase";
+export { Problem } from "./problem";
+export { SolutionsOverview } from "./solutions-overview";
+export { CaseStudyPreview } from "./case-study-preview";
+export { FeaturesGrid } from "./features-grid";
+export { WhySmartResto } from "./why-smartresto";
+export { Cta } from "./cta";
+export { Faq } from "./faq";
