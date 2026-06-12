@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import {
   Carousel,
   CarouselContent,
@@ -20,16 +19,14 @@ export function AboutCarousel({ images, alt }: AboutCarouselProps) {
       <CarouselContent>
         {images.map((src, i) => (
           <CarouselItem key={src}>
-            <div className="relative aspect-[4/3] overflow-hidden rounded-2xl border bg-muted">
-              <Image
-                src={src}
-                alt={`${alt} — photo ${i + 1}`}
-                fill
-                sizes="(max-width: 1024px) 100vw, 50vw"
-                className="object-cover"
-                priority={i === 0}
-              />
-            </div>
+            {/* Plain <img> for reliable rendering inside the embla carousel. */}
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={src}
+              alt={`${alt} — photo ${i + 1}`}
+              loading={i === 0 ? "eager" : "lazy"}
+              className="aspect-[4/3] w-full rounded-2xl border bg-muted object-cover"
+            />
           </CarouselItem>
         ))}
       </CarouselContent>

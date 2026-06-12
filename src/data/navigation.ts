@@ -27,7 +27,7 @@ export const NAV_MENU: NavMenuItem[] = [
     ],
   },
   { id: 2, label: "Pourquoi SmartResto", href: "/pourquoi-smartresto" },
-  { id: 3, label: "Étude de cas", href: "/etude-de-cas/maison-burger" },
+  { id: 3, label: "Étude de cas", href: "/etude-de-cas" },
   { id: 4, label: "Déploiement", href: "/deploiement" },
 ];
 
@@ -42,7 +42,7 @@ export const MAIN_NAV: NavItem[] = [
     ],
   },
   { label: "Pourquoi SmartResto", href: "/pourquoi-smartresto" },
-  { label: "Étude de cas", href: "/etude-de-cas/maison-burger" },
+  { label: "Étude de cas", href: "/etude-de-cas" },
   { label: "Déploiement", href: "/deploiement" },
   { label: "Contact", href: "/contact" },
 ];
@@ -59,7 +59,7 @@ export const FOOTER_NAV = {
   entreprise: {
     title: "Entreprise",
     links: [
-      { label: "Étude de cas", href: "/etude-de-cas/maison-burger" },
+      { label: "Étude de cas", href: "/etude-de-cas" },
       { label: "Contact", href: "/contact" },
       { label: "Demander une démo", href: "/demo" },
     ],
